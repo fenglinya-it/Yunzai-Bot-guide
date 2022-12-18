@@ -16,24 +16,23 @@
 1. 新建一个文件夹，命名随便，最好别用中文
 
 2. 右键文件夹，选择git bash here
-<!-- <img src="picture/12.png" width="50%"> -->
-
+<img src="picture/2.png" width="50%">
 3. 克隆项目
 命令
 ```
 git clone --depth=1 -b main https://github.com/Le-niao/Yunzai-Bot.git
 ```
-<!-- <img src="picture/31.png" width="50%"> -->
+<img src="picture/3.png" width="50%">
 
 - 这样就算成功
-<!-- <img src="picture/41.png" width="50%"> -->
+<img src="picture/4.png" width="50%">
 
 2. 进入Yunzai目录
 
 ```
 cd Yunzai-Bot 
 ```
-<!-- <img src="picture/15.png" width="50%"> -->
+<img src="picture/5.png" width="50%">
 
 3. 安装pnpm，已安装的可以跳过
 ```bash
@@ -45,13 +44,13 @@ npm install pnpm -g
 ```bash
 pnpm install -P
 ```
-<!-- <img src="picture/16.png" width="50%"> -->
+<img src="picture/6.png" width="50%">
 
 5. 运行（首次运行按提示输入登录）
 ```
 node app
 ```
-<!-- <img src="picture/17.png" width="50%"> -->
+<img src="picture/7.png" width="50%">
 
 #### 安卓termux
 摆烂
