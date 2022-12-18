@@ -53,7 +53,11 @@ node app
 <img src="picture/7.png" width="50%">
 
 #### 安卓termux
-摆烂
+等更新。。。。。
+
+#### Linux
+
+建议使用大佬的脚本
 
 ### 基础操作
 
