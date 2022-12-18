@@ -168,6 +168,15 @@ git clone --depth=1 https://github.com/Nwflower/flower-plugin.git ./plugins/flow
 ```
 git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flower-plugin/
 ```
+
+
+#### py插件
+
+- 我个人的建议是：
+- 别去费精力装了
+- 直接装个nonebot不好吗
+- 换个登录端口直接实现1号俩机器人
+
 #### [单个js格式插件通用安装方法](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index?_from=gitee_search#js%E6%8F%92%E4%BB%B6%E7%B4%A2%E5%BC%95)
 
 - 超级简单，只要把插件下载好后放入 `Yunzai-bot/plugins/example` 里即可 
