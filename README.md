@@ -2,8 +2,9 @@
 
 ## 简介
 
-Yunzai-Bot是原神qq群机器人，通过米游社接口，查询原神游戏信息，快速生成图片返回，
-此指南是教你如何安装Yunzai-Bot和它的插件，编写插件和一些问题的解决方法。
+- Yunzai-Bot是原神qq群机器人，通过米游社接口，查询原神游戏信息，快速生成图片返回，
+- 此指南是教你如何安装Yunzai-Bot和它的插件，编写插件和一些问题的解决方法。
+- 注：本指南暂未完善，欢迎大家提交Issues和Pull Requests
 
 ## Yunzai-Bot
 
@@ -11,28 +12,28 @@ Yunzai-Bot是原神qq群机器人，通过米游社接口，查询原神游戏�
 
 #### Windows:
 
-- 环境准备:[Node.js][nodejs](建议版本v16.16.0),[redis][redis],[git][git]
+- 环境准备:[Node.js][nodejs](建议版本v16.18.0),[redis][redis],[git][git]
 1. 新建一个文件夹，命名随便，最好别用中文
 
 2. 右键文件夹，选择git bash here
-<img src="picture/2.png" width="50%">
+<!-- <img src="picture/12.png" width="50%"> -->
 
 3. 克隆项目
 命令
 ```
 git clone --depth=1 -b main https://github.com/Le-niao/Yunzai-Bot.git
 ```
-<img src="picture/3.png" width="50%">
+<!-- <img src="picture/31.png" width="50%"> -->
 
 - 这样就算成功
-<img src="picture/4.png" width="50%">
+<!-- <img src="picture/41.png" width="50%"> -->
 
 2. 进入Yunzai目录
 
 ```
 cd Yunzai-Bot 
 ```
-<img src="picture/5.png" width="50%">
+<!-- <img src="picture/15.png" width="50%"> -->
 
 3. 安装pnpm，已安装的可以跳过
 ```bash
@@ -44,13 +45,13 @@ npm install pnpm -g
 ```bash
 pnpm install -P
 ```
-<img src="picture/6.png" width="50%">
+<!-- <img src="picture/16.png" width="50%"> -->
 
 5. 运行（首次运行按提示输入登录）
 ```
 node app
 ```
-<img src="picture/7.png" width="50%">
+<!-- <img src="picture/17.png" width="50%"> -->
 
 #### 安卓termux
 摆烂
@@ -88,7 +89,7 @@ node app
 
 - 注：均为V3插件
 
-#### [锅巴插件 (guoba-plugin)](https://gitee.com/guoba-yunzai/guoba-plugin) 
+#### [锅巴插件](https://gitee.com/guoba-yunzai/guoba-plugin) 
 - 主要提供云崽的网页端后台管理界面功能
 - 安装教程：
 - 第 1 步：下载插件
@@ -192,8 +193,81 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 - Yunzai-Bot（V2）：[☞Github](https://github.com/yoimiya-kokomi/Yunzai-Bot)/[☞Gitee](https://gitee.com/yoimiya-kokomi/Yunzai-Bot) 
 
 ### 问题解答
+- cookie 绑定失败？
 
-等更新吧。。。。。
+  - 先把云崽 `#强制更新` 一下 
+  - 然后重新获取cookie
+
+- 装完 node 但是还是提示 `npm:command not found`
+
+  - 请自行百度搜索 `Windows环境变量设置`
+  - 在用户环境变量的 Path 变量中点击编辑，添加 `C:\Program Files\nodejs` 与 `C:\Users\把这段中文替换成你自己的用户名\AppData\Roaming\npm` 字段
+  - 重启电脑即可食用
+
+- 签到显示 `验证码失败` ?
+
+  - 太正常不过，这个问题无解，有解决方法的请私发我
+
+- 提示 `qq版本过低` ？
+
+  - <img src="picture/9.png" width="50%"> <br>此图来源于喵喵插件群
+  - 亲测有效
+
+- 提示 `请配置公共ck` ？
+
+  - 字面意思，`#配置公共ck`把你的ck发给机器人
+  - 或者`#使用全部ck`
+
+- 公共 ck 查询次数已用完，暂无法查询新 uid？
+
+  - 不用慌，再绑定一个就是了
+  - 或者 `#使用全部ck`
+
+- <img src="picture/8.png" width="50%"> <br> MISCONF Redis is configured to save RDB
+  snapshots
+
+  - 控制面板->系统和安全->系统->高级系统设置->高级选项卡下方第一个卡片“性能”里的设置按钮->高级选项卡->虚拟内存->更改->勾选最上方自动管理所有驱动器的分页文件大小->重启电脑
+
+- 机器人进群自动退了怎么办
+
+  - 锅巴插件->配置管理->其它->退群人数改成 0 就行
+
+- 如何删除插件?
+
+  - 在 `Yunzai-bot/plugins` 文件夹里找到对应的插件右键删除即可，
+  - 注：如果是插件包需要把整个文件夹都删掉
+
+- 如何关闭入群欢迎?
+
+  - 在 `Yunzai-bot/plugins/example` 文件夹里找到入群欢迎插件，右键删除
+
+- 机器人被冻结了，怎么办？
+
+  - 号封了而已，没啥好办法，能解封就解不能解可以多备几个小号。关闭私聊，减少冻结频率。
+
+- xx 功能报错，xx 功能异常？机器人打不开? 机器人坏了?
+  - 重装吧兄弟
+  - 也可以不重装：重置云崽步骤(数据会保留)：在云崽根目录下打开 git bash 输入`git pull`，然后再`git reset --hard origin/main`，最后再手动重启即可解决。
+
+- 喵喵插件的 `#xx照片` `xx图片` 功能用不了？
+
+ 把 `Yunzai-Bot/plugins/miao-plugin/resources` 的 `character-img` 文件复制一份到 `Yunzai-Bot/plugins/miao-plugin/resources/miao-res-plus` 里就好了
+
+- 机器人群聊消息发不出去，但是私聊正常？
+
+  - 这是触发了 QQ 新版群聊风控，私聊机器人发送 <https://accounts.qq.com/safe/message/unlock?lock_info=5_5> 然后拿出你的手机，并登录机器人的手机 QQ，从机器人的手机 QQ 里打开个链接，验证就行了。
+
+- 十连次数怎么修改？
+
+  - [锅巴插件]里可以配置
+
+- 服务器推荐？
+
+  - 平时服务器都会比较贵，只有新用户和购物节会特别便宜，所以大家各凭本事吧，反正只要服务器能联网就能搭这个机器人。
+  - 推荐腾讯云新人特惠50一年2h2G
+
+- 插件除了这些还有别的吗
+  - 更多的插件都在云崽官方群里，但是官方群它不对外开放...
 
 ## Yunzai-Bot插件教学
 
