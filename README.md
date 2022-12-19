@@ -18,6 +18,7 @@
 
 2. 右键文件夹，选择git bash here
 <img src="picture/2.png" width="50%">
+
 3. 克隆项目
 命令
 ```
