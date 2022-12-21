@@ -15,8 +15,7 @@
 |  群名  |      群号     |    原因  | 
 |--------|--------------|----------|
 |   716430985   |   <$ǿĀD>原来你也玩原神   |  原因我会放在我盆友的网站上  |
-
-- 欢迎大家发起Pull Requests来提供这些道德素质不好的群
+- 欢迎大家发起Pull Requests来提供这些da
 
 ## Yunzai-Bot
 
@@ -433,6 +432,7 @@ export class Helloworld extends plugin {
 ### 交流群
 |  群名  |      群号     |
 |--------|--------------|
+|原神交流[qq1]|773089934|
 |[Yunzai-Bot交流群][qq]|160219343|
 
 
@@ -453,3 +453,4 @@ export class Helloworld extends plugin {
 [python]: https://wwrl.lanzouw.com/iK7uS0ixl0fi
 [ffmpeg]: https://wwrl.lanzouw.com/
 [滑块验证]: https://maupdate.rainchan.win/txcaptcha.apk
+[qq1]: https://qm.qq.com/cgi-bin/qm/qr?k=Cu1TnfTNNOdhx0lv17qbnTzp9lhOy_dJ&jump_from=webapi&authKey=8cmxRdVRamzJn0xPI2yet1a//X16faoVcTqD6P2vn/PIgJECkquiq8dyEoSgUJKt
