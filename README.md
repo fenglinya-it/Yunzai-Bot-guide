@@ -6,6 +6,9 @@
 - 此指南是教你如何安装Yunzai-Bot和它的插件，编写插件和一些问题的解决方法。
 - 注：本指南暂未完善，欢迎大家提交Issues和Pull Requests
 - 点个star，谢谢
+- 我的博客https://qianxinwanjiu.com/76-2/
+- 我的仓库https://gitee.com/lin-zhi-xuan/eihei
+
 
 ## 拉黑群聊
 - 因为有些群嘴脸很臭，所以我必须要做个提醒
