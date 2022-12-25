@@ -27,7 +27,7 @@
 #### Windows:
 
 - 环境准备:[Node.js][nodejs](建议版本v16.18.0),[redis][redis],[git][git]
-1. 新建一个文件夹，命名随便，最好别用中文
+1. 新建一个文件夹(也可以不建)，命名随便，最好别用中文
 
 2. 右键文件夹，选择git bash here
 <img src="picture/2.png" width="50%">
@@ -39,7 +39,7 @@ git clone --depth=1 -b main https://github.com/Le-niao/Yunzai-Bot.git
 ```
 <img src="picture/3.png" width="50%">
 
-- 这样就算成功
+- 这样就算成功了
 <img src="picture/4.png" width="50%">
 
 2. 进入Yunzai目录
@@ -57,7 +57,7 @@ npm install pnpm -g
 
 - 这里会发生的一些问题问题：
     输完卡住不动了怎么办？或者提示 `npm ERR！`？或者其他的报错？  
-    原因：你的服务器网络太差了，根本下载不动，没问题才怪了。
+    原因：你的服务器太逊了(网络太差了)，根本下载不动，没问题才怪了。
     解决方案：换源，执行命令来更换淘宝镜像源 `npm config set registry https://registry.npmmirror.com` 然后再次执行安装 pnpm 的命令 `npm install pnpm -g`  
     就是有点后遗症，更换镜像源后有微小概率导致后续安装出现问题，所以如果你更换了镜像源以后遇到任何问题请勿向我提问;
 
@@ -79,7 +79,6 @@ node app
 #### Linux
 
 - 新手非必要不要使用Linux操作系统
-建议等两天后
 
 ### 基础操作
 
@@ -249,7 +248,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 - 提示 `请配置公共ck` ？
 
-  - 字面意思，`#配置公共ck`把你的ck发给机器人
+  - 字面意思，`#配置公共ck`然后把你的ck发给机器人
   - 或者`#使用全部ck`
 
 - 公共 ck 查询次数已用完，暂无法查询新 uid？
@@ -273,7 +272,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 - 如何关闭入群欢迎?
 
-  - 在 `Yunzai-bot/plugins/example` 文件夹里找到入群欢迎插件，右键删除
+  - 在 `Yunzai-bot/plugins/example` 文件夹里找到入群欢迎插件，右键删除，或者在锅巴插件中进行配置
 
 - 机器人被冻结了，怎么办？
 
@@ -302,6 +301,8 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 - 插件除了这些还有别的吗
   - 更多的插件都在云崽官方群里，但是官方群它不对外开放...
+  - 或者你可以学学自己写插件
+  -不会？，那就看下面的教程吧
 
 ## Yunzai-Bot插件教学
 
