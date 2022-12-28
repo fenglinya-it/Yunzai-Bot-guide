@@ -228,8 +228,10 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
   - 重启电脑即可食用
 
 - 签到显示 `验证码失败` ?
+
   - 问得好，好问题
   - 太正常不过，这个问题无解，有解决方法的请私发我
+  - 至于什么时候会好嘛，我也不知道，你问大伟哥去
 
 - 提示 `qq版本过低` ？
 
