@@ -222,12 +222,13 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 - 装完 node 但是还是提示 `npm:command not found`
 
+  - 没配置环境变量而已
   - 请自行百度搜索 `Windows环境变量设置`
   - 在用户环境变量的 Path 变量中点击编辑，添加 `C:\Program Files\nodejs` 与 `C:\Users\把这段中文替换成你自己的用户名\AppData\Roaming\npm` 字段
   - 重启电脑即可食用
 
 - 签到显示 `验证码失败` ?
-
+  - 问得好，好问题
   - 太正常不过，这个问题无解，有解决方法的请私发我
 
 - 提示 `qq版本过低` ？
