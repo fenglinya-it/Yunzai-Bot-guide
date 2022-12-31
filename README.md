@@ -215,6 +215,15 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 - Yunzai-Bot（V2）：[☞Github](https://github.com/yoimiya-kokomi/Yunzai-Bot)/[☞Gitee](https://gitee.com/yoimiya-kokomi/Yunzai-Bot) 
 
 ### 问题解答
+- 遇到问题怎么办
+  - 先不要急着问
+  - 重启一下试试
+  - 重装一下试试
+  - 换台设备试试
+  - 实在不行再去问
+  - 把后台报错日志截图，并准备好充足的问题描述(态度要好，50字以上)
+  - 将后台报错日志截图和完整的问题描述发到群里。
+  - 等待有人为你解答
 - cookie 绑定失败？
 
   - 先把云崽 `#强制更新` 一下 
