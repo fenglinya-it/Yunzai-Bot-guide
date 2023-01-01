@@ -6,7 +6,7 @@
 - 此指南是教你如何安装Yunzai-Bot和它的插件，编写插件和一些问题的解决方法。
 - 注：本指南暂未完善，欢迎大家提交Issues和Pull Requests
 - 点个star，谢谢
-- 我的博客https://qianxinwanjiu.com/76-2/
+- 我的博客https://ybg6.cn/yunzai-bot-zhibei/
 - 我的仓库https://gitee.com/lin-zhi-xuan/eihei
 
 ## Yunzai-Bot
@@ -220,8 +220,8 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
   - 重启一下试试
   - 重装一下试试
   - 换台设备试试
-  - 实在不行再去问
-  - 把后台报错日志截图，并准备好充足的问题描述(态度要好，50字以上)
+  - 实在bu'x
+  - 把后台报错日志截图，并准备好充足的问题描述(态度要好)
   - 将后台报错日志截图和完整的问题描述发到群里。
   - 等待有人为你解答
 - cookie 绑定失败？
