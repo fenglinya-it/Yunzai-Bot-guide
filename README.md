@@ -438,7 +438,6 @@ export class Helloworld extends plugin {
 |  群名  |      群号     |
 |--------|--------------|
 |[原神交流][qq1]|773089934|
-|[Yunzai-Bot交流群][qq]|160219343|
 
 
 
@@ -447,7 +446,6 @@ export class Helloworld extends plugin {
 
 
 
-[qq]: https://qm.qq.com/cgi-bin/qm/qr?k=-EEMzVPAhafx6-NRzQDZ5yWQ5L_Y17ZA&jump_from=webapi&authKey=znJSNIZ+A5Ignodz5gTX0fTEqxOGfNqn5+RQke35LZQHyXBizlKbn4n4pXwuieXk
 [Yunzai]: https://github.com/Le-niao/Yunzai-Bot
 [Yunzai-Bot]: https://docs.yunzai.org/
 [redis]: https://wwrl.lanzouw.com/iB1f70hizgxa
