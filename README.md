@@ -62,16 +62,19 @@ pnpm install -P
 node app
 ```
 <img src="picture/7.png" width="50%">
-如果觉得麻烦，可使用脚本：
+
+- 如果觉得麻烦，可使用脚本：
 example:
+
 ```
 start "" "C:/redis/redis-server.exe"
 cd C:/Yunzai-Bot
 node app
 pause
 ```
-第一行中，第一个双引号无需填写，第二个双引号填写你redis路径
-第二行填写你Yunzai-Bot根目录
+
+- 第一行中，第一个双引号无需填写，第二个双引号填写你redis路径
+= 第二行填写你Yunzai-Bot根目录
 
 #### 安卓termux
 等更新。。。。。
