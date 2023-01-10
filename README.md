@@ -8,7 +8,8 @@
 - 点个star，谢谢
 - 我的博客https://qianxinwanjiu.com/yunzai-bot-zhibei/
 - 我的仓库https://gitee.com/lin-zhi-xuan/eihei
-
+- 不建议使用本机搭建，会出现不少玄学错误，可能无法解决
+- 尽量避免卸载python，因为卸载不干净
 ## Yunzai-Bot
 
 ### 安装Yunzai-Bot
@@ -61,12 +62,23 @@ pnpm install -P
 node app
 ```
 <img src="picture/7.png" width="50%">
+如果觉得麻烦，可使用脚本：
+example:
+```
+start "" "C:/redis/redis-server.exe"
+cd C:/Yunzai-Bot
+node app
+pause
+```
+第一行中，第一个双引号无需填写，第二个双引号填写你redis路径
+第二行填写你Yunzai-Bot根目录
 
 #### 安卓termux
 等更新。。。。。
 
 #### Linux
 
+- 详见https://qianxinwanjiu.com/install-Yunzai-in-linux
 - 新手非必要不要使用Linux操作系统
 
 ### 基础操作
@@ -220,7 +232,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
   - 重启一下试试
   - 重装一下试试
   - 换台设备试试
-  - 实在不行就别搞了，
+  - 实在bu'x
   - 把后台报错日志截图，并准备好充足的问题描述(态度要好)
   - 将后台报错日志截图和完整的问题描述发到群里。
   - 等待有人为你解答
