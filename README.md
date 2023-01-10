@@ -82,7 +82,7 @@ pause
 
 #### Linux
 
-- ubuntu安装教程:https://qianxinwanjiu.com/yunzai-bot-linux-ubuntu/
+- ubuntu安装教程:https://qianxinwanjiu.com/install-Yunzai-in-linux
 - 提示:新手非必要不要使用Linux操作系统
 
 ### 基础操作
