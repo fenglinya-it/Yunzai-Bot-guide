@@ -82,8 +82,8 @@ pause
 
 #### Linux
 
-- 详见https://qianxinwanjiu.com/install-Yunzai-in-linux
-- 新手非必要不要使用Linux操作系统
+- ubuntu安装教程:https://qianxinwanjiu.com/yunzai-bot-linux-ubuntu/
+- 提示:新手非必要不要使用Linux操作系统
 
 ### 基础操作
 
