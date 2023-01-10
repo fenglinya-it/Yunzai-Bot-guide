@@ -64,7 +64,8 @@ node app
 <img src="picture/7.png" width="50%">
 
 - 如果觉得麻烦，可使用脚本：
-example:
+
+>新建一个文件,把后缀改成bat,然后点击编辑
 
 ```
 start "" "C:/redis/redis-server.exe"
