@@ -78,12 +78,9 @@ pause
 - 第一行中，第一个双引号无需填写，第二个双引号填写你redis路径
 = 第二行填写你Yunzai-Bot根目录
 
-#### 安卓termux
-等更新。。。。。
-
 #### Linux
 
-##### 1.Ubuntu教程
+##### Ubuntu教程
 
 - 本教程博客地址:https://qianxinwanjiu.com/yunzai-bot-linux-ubuntu/
 
