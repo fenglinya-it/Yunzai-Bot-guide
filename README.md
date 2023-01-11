@@ -8,14 +8,15 @@
 - 点个star，谢谢
 - 我的博客https://qianxinwanjiu.com/yunzai-bot-zhibei/
 - 我的仓库https://gitee.com/lin-zhi-xuan/eihei
-- 不建议使用本机搭建，会出现不少玄学错误，可能无法解决
-- 尽量避免卸载python，因为卸载不干净
+<!-- - 不建议使用本机搭建，会出现不少玄学错误，可能无法解决
+- 尽量避免卸载python，因为卸载不干净 -->
 ## Yunzai-Bot
 
 ### 安装Yunzai-Bot
 
 #### Windows:
 
+- 学不会怎么办，V我50我手把手教你
 - 环境准备:[Node.js][nodejs](建议版本v16.18.0),[redis][redis],[git][git]
 1. 新建一个文件夹(也可以不建)，命名随便，最好别用中文
 
