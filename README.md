@@ -25,7 +25,7 @@
 
 3. 克隆项目
 命令
-```
+```bash
 git clone --depth=1 -b main https://github.com/Le-niao/Yunzai-Bot.git
 ```
 <img src="picture/3.png" width="50%">
@@ -35,7 +35,7 @@ git clone --depth=1 -b main https://github.com/Le-niao/Yunzai-Bot.git
 
 2. 进入Yunzai目录
 
-```
+```bash
 cd Yunzai-Bot 
 ```
 <img src="picture/5.png" width="50%">
@@ -59,7 +59,7 @@ pnpm install -P
 <img src="picture/6.png" width="50%">
 
 5. 运行（首次运行按提示输入登录）
-```
+```bash
 node app
 ```
 <img src="picture/7.png" width="50%">
@@ -68,7 +68,7 @@ node app
 
 >新建一个文件,把后缀改成bat,然后点击编辑
 
-```
+```bash
 start "" "C:/redis/redis-server.exe"
 cd C:/Yunzai-Bot
 node app
@@ -83,8 +83,139 @@ pause
 
 #### Linux
 
-- Linux安装教程:https://qianxinwanjiu.com/install-Yunzai-in-linux
-- 提示:新手非必要不要使用Linux操作系统
+##### 1.Ubuntu教程
+
+- 本教程博客地址:https://qianxinwanjiu.com/yunzai-bot-linux-ubuntu/
+
+- 小白不建议使用Linux部署！
+- 不建议使用一键脚本！(除非你太废)
+
+>本文的环境：
+>纯净的Ubuntu（版本20.04）
+
+1. 安装宝塔面板
+
+- 为什么要安装宝塔面板？
+- 因为便于管理文件（更改配置文件、上传面板图等）
+
+>使用以下命令安装：
+```bash
+wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && sudo bash install.sh ed8484bec
+```
+>安装完成后，记得保存输出的面板地址和账号密码
+
+<img src="picture/12.png" width="50%">
+
+<img src="picture/13.png" width="50%">
+
+2. 安装Nodejs与redis
+- 打开面板地址，绑定手机号（如果你没有账号，请前往https://bt.cn/register.html注册）
+
+- 登陆成功后，会显示一键安装页面，叉掉即可（不需要，因为不建站）
+
+- 然后打开软件商店，搜索nodejs，找到nodejs版本管理器，
+
+<img src="picture/14.png" width="50%">
+
+- 点击安装
+
+<img src="picture/15.png" width="50%">
+
+
+- 点击安装即可
+
+- 然后来到此界面，按下图所示操作
+
+<img src="picture/16.png" width="50%">
+
+- 建议使用v16.18.0
+
+<img src="picture/17.png" width="50%">
+
+- 安装好后，点击右侧的模块管理，来到下图所示界面，按图操作
+
+<img src="picture/18.png" width="50%">
+
+- 安装完成，回到软件商店，搜索redis，按下图操作
+
+<img src="picture/19.png" width="50%">
+
+3. 安装Yunzai
+- 回到SSH终端，安装GIT，以便拉取仓库
+
+- 执行以下命令：
+
+```bash
+sudo apt-get install git
+```
+
+<img src="picture/20.png" width="50%">
+
+- 等待执行完成
+
+- 然后拉取Yunzai，使用以下命令：
+```
+git clone --depth=1 -b main https://gitee.com/Le-niao/Yunzai-Bot.git
+```
+- 大致输出以下内容（没有ERR或error就不用管）
+```log
+Cloning into 'Yunzai-Bot'...
+remote: Enumerating objects: 1073, done.
+remote: Counting objects: 100% (1073/1073), done.
+remote: Compressing objects: 100% (1053/1053), done.
+remote: Total 1073 (delta 25), reused 911 (delta 2), pack-reused 0Receiving objects: 100% (1073/1073), 18.37 MiB | 9.07 MiB/s
+Receiving objects: 100% (1073/1073), 27.20 MiB | 11.79 MiB/s, done.
+Resolving deltas: 100% (25/25), done.
+Updating files: 100% (992/992), done.
+```
+- 然后cd进Yunzai根目录
+```bash
+cd Yunzai-Bot
+```
+- pnpm安装过了，所以直接执行
+```bash
+pnpm install -P
+```
+输出大致如下
+```log
+ WARN  deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+Packages: +362
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Packages are hard linked from the content-addressable store to the virtual store.
+  Content-addressable store is at: /root/.local/share/pnpm/store/v3
+  Virtual store is at:             node_modules/.pnpm
+Progress: resolved 498, reused 497, downloaded 0, added 362, done
+
+dependencies:
++ art-template 4.13.2
++ chalk 5.0.1
++ chokidar 3.5.3
++ https-proxy-agent 5.0.1
++ inquirer 8.2.4
++ lodash 4.17.21
++ log4js 6.5.2
++ md5 2.3.0
++ moment 2.29.3
++ node-fetch 3.2.6
++ node-schedule 2.1.0
++ node-xlsx 0.21.0
++ oicq 2.3.1
++ patch-package 6.5.0
++ pm2 5.2.0
++ puppeteer 13.7.0
++ redis 4.1.0
++ yaml 2.1.1
+
+devDependencies: skipped
+
+Done in 13.5s
+```
+
+<img src="picture/21.png" width="50%">
+
+- 记住！WARN不要惊慌，看到ERR或者error才是你需要解决的
+
+- 然后node app启动机器人，按提示操作即可
 
 ### 基础操作
 
@@ -126,7 +257,7 @@ pause
 
 - 在云崽根目录下打开终端，运行
 
-```
+```bash
 git clone --depth=1 https://gitee.com/guoba-yunzai/guoba-plugin.git ./plugins/Guoba-Plugin/
 ```
 
@@ -145,19 +276,6 @@ pnpm install --filter=guoba-plugin
 > 注：请务必直接复制提供的命令，否则可能会导致依赖丢失的情况，若发生需自行重新安装。<br>
 > `--filter=guoba-plugin`：只安装`guoba-plugin`下的依赖，其他依赖不处理，防止丢失。
 
-- 方式2：采用 npm 或 cnpm
-
-如果是使用`npm`或`cnpm`等其他依赖安装工具，需要手动安装以下依赖：
-
-```bash
-npm install express multer body-parser jsonwebtoken
-```
-
-如果以上命令执行失败，可尝试使用`cnpm`进行安装，只需将开头的`npm`替换成`cnpm`即可。
-
-> 注：cnpm需要单独安装，已安装的可以忽略，安装命令如下：<br>
-> `npm install cnpm -g --registry=https://registry.npmmirror.com`
-
 - 第 3 步：运行插件
 
 依赖安装完毕之后，直接运行即可，默认运行端口号是：50831
@@ -169,37 +287,29 @@ npm install express multer body-parser jsonwebtoken
 如果访问不到，请发送`#锅巴帮助`指令获取帮助。
 
 #### [喵喵插件 (miao-plugin)](https://gitee.com/yoimiya-kokomi/miao-plugin)
+
 - Miao-Plugin是一个Yunzai-Bot的升级插件，提供包括角色查询等升级功能。
+
 - 具体功能可在安装插件后 通过 #喵喵帮助 进行查看。如需进行设置可通过 #喵喵设置 命令进行管理。
----
-- 安装与更新
-请将miao-plugin放置在Yunzai-Bot的plugins目录下，重启Yunzai-Bot后即可使用。
-推荐使用git进行安装，以方便后续升级。在Yunzai根目录夹打开终端，运行
+
+- 推荐使用git进行安装，以方便后续升级。在Yunzai根目录夹打开终端，运行
+
 -  使用gitee
-```
+
+```bash
 git clone https://gitee.com/yoimiya-kokomi/miao-plugin.git ./plugins/miao-plugin/
 ```
--  使用github
-```
-git clone https://github.com/yoimiya-kokomi/miao-plugin.git ./plugins/miao-plugin/
-```
-进行安装。建议使用上述命令进行安装，以便于后续更新。 管理员发送`#喵喵更新`即可自动更新
+
+- 进行安装。建议使用上述命令进行安装，以便于后续更新。 管理员发送`#喵喵更新`即可自动更新
 
 #### [抽卡插件 (flower-plugin)](https://gitee.com/Nwflower/flower-plugin)
 - flower-plugin是一个适用于V3版本Yunzai-Bot的原神图鉴插件包，主要提供拓展抽卡功能，意在不修改本体抽卡卡池信息的情况下提供自定义卡池的拓展
 
-1. 使用github源获取插件
+- 在Yunzai-Bot根目录下，运行cmd，输入以下指令
 
-2. 在Yunzai-Bot根目录下，运行cmd，输入以下指令
-
-```
-git clone --depth=1 https://github.com/Nwflower/flower-plugin.git ./plugins/flower-plugin/
-```
-- 如果运行失败，可以使用gitee镜像源，指令如下
-```
+```bash
 git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flower-plugin/
 ```
-
 
 #### py插件
 
@@ -458,7 +568,7 @@ export class Helloworld extends plugin {
 ### 交流群
 |  群名  |      群号     |
 |--------|--------------|
-|[原神交流][qq1]|773089934|
+|[原神交流][qq]|773089934|
 
 
 
@@ -477,4 +587,4 @@ export class Helloworld extends plugin {
 [python]: https://wwrl.lanzouw.com/iK7uS0ixl0fi
 [ffmpeg]: https://wwrl.lanzouw.com/
 [滑块验证]: https://maupdate.rainchan.win/txcaptcha.apk
-[qq1]: https://qm.qq.com/cgi-bin/qm/qr?k=Cu1TnfTNNOdhx0lv17qbnTzp9lhOy_dJ&jump_from=webapi&authKey=8cmxRdVRamzJn0xPI2yet1a//X16faoVcTqD6P2vn/PIgJECkquiq8dyEoSgUJKt
+[qq]: https://qm.qq.com/cgi-bin/qm/qr?k=Cu1TnfTNNOdhx0lv17qbnTzp9lhOy_dJ&jump_from=webapi&authKey=8cmxRdVRamzJn0xPI2yet1a//X16faoVcTqD6P2vn/PIgJECkquiq8dyEoSgUJKt
