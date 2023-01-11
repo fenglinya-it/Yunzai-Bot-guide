@@ -241,6 +241,9 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
   - 把后台报错日志截图，并准备好充足的问题描述(态度要好)
   - 将后台报错日志截图和完整的问题描述发到群里。
   - 等待有人为你解答
+
+<img src="picture/10.png" width="50%">
+
 - cookie 绑定失败？
 
   - 先把云崽 `#强制更新` 一下 
