@@ -1,6 +1,7 @@
 # Yunzai-Bot指南
 
 ## 简介
+
 [![](https://profile-counter.glitch.me/eihei/count.svg)](https://gitee.com/lin-zhi-xuan/eihei)
 - Yunzai-Bot是原神qq群机器人，通过米游社接口，查询原神游戏信息，快速生成图片返回，
 - 此指南是教你如何安装Yunzai-Bot和它的插件，编写插件和一些问题的解决方法。
@@ -26,7 +27,7 @@
 3. 克隆项目
 命令
 ```bash
-git clone --depth=1 -b main https://github.com/Le-niao/Yunzai-Bot.git
+git clone --depth=1 -b main https://gitee.com/Le-niao/Yunzai-Bot.git
 ```
 <img src="picture/3.png" width="50%">
 
@@ -214,6 +215,12 @@ Done in 13.5s
 
 - 然后node app启动机器人，按提示操作即可
 
+##### centos:
+
+- 本教程地址:https://qianxinwanjiu.com/yunzai-linux-centos/#comment-29
+- 小白不建议使用Linux部署！
+- 不建议使用一键脚本！(除非你太废)
+
 ### 基础操作
 
 - 启动云崽： `node app`
@@ -334,9 +341,9 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 >你一定用的上的地址
 
 - 官方文档地址:[☞Yunzai-Bot][Yunzai-Bot]
-- Yunzai-Bot插件库：[☞Github](https://github.com/yhArcadia/Yunzai-Bot-plugins-index)/[☞Gitee](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)
-- Yunzai-Bot（V3）：[☞Github](https://github.com/Le-niao/Yunzai-Bot)/[☞Gitee](https://gitee.com/Le-niao/Yunzai-Bot) 
-- Yunzai-Bot（V2）：[☞Github](https://github.com/yoimiya-kokomi/Yunzai-Bot)/[☞Gitee](https://gitee.com/yoimiya-kokomi/Yunzai-Bot) 
+- Yunzai-Bot插件库：[☞Github](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)/[☞Gitee](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)
+- Yunzai-Bot（V3）：[☞Github](https://gitee.com/Le-niao/Yunzai-Bot)/[☞Gitee](https://gitee.com/Le-niao/Yunzai-Bot) 
+- Yunzai-Bot（V2）：[☞Github](https://gitee.com/yoimiya-kokomi/Yunzai-Bot)/[☞Gitee](https://gitee.com/yoimiya-kokomi/Yunzai-Bot) 
 
 ### 问题解答
 - 遇到问题怎么办
@@ -574,7 +581,7 @@ export class Helloworld extends plugin {
 
 
 
-[Yunzai]: https://github.com/Le-niao/Yunzai-Bot
+[Yunzai]: https://gitee.com/Le-niao/Yunzai-Bot
 [Yunzai-Bot]: https://docs.yunzai.org/
 [redis]: https://wwrl.lanzouw.com/iB1f70hizgxa
 [git]: https://wwrl.lanzouw.com/iBjDY0hizgre
