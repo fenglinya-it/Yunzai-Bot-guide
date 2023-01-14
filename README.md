@@ -7,10 +7,9 @@
 - 此指南是教你如何安装Yunzai-Bot和它的插件，编写插件和一些问题的解决方法。
 - 注：本指南暂未完善，欢迎大家提交Issues和Pull Requests
 - 点个star，谢谢
-- 我的博客https://qianxinwanjiu.com/yunzai-bot-zhibei/
-- 我的仓库https://gitee.com/lin-zhi-xuan/eihei
-<!-- - 不建议使用本机搭建，会出现不少玄学错误，可能无法解决
-- 尽量避免卸载python，因为卸载不干净 -->
+- 我的博客:https://qianxinwanjiu.com/yunzai-bot-zhibei/
+- 我的仓库:https://gitee.com/lin-zhi-xuan/eihei
+
 ## Yunzai-Bot
 
 ### 安装Yunzai-Bot
@@ -328,23 +327,6 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 <img src="picture/1.png" width="100%">
 
 
-### 常用链接
->下载链接（均为网盘）有密码的均为114514
-
-- redis下载链接:[☞redis][redis]
-- git下载链接:[☞git][git]
-- node.js下载链接:[☞node.js][nodejs]
-- python3.8下载链接[☞python3.8][python]
-- ffmpeg下载链接[☞ffmpeg][ffmpeg]
-- 滑块验证助手下载链接[☞滑块验证][滑块验证]
-
->你一定用的上的地址
-
-- 官方文档地址:[☞Yunzai-Bot][Yunzai-Bot]
-- Yunzai-Bot插件库：[☞Github](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)/[☞Gitee](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)
-- Yunzai-Bot（V3）：[☞Github](https://gitee.com/Le-niao/Yunzai-Bot)/[☞Gitee](https://gitee.com/Le-niao/Yunzai-Bot) 
-- Yunzai-Bot（V2）：[☞Github](https://gitee.com/yoimiya-kokomi/Yunzai-Bot)/[☞Gitee](https://gitee.com/yoimiya-kokomi/Yunzai-Bot) 
-
 ### 问题解答
 - 遇到问题怎么办
   - 先不要急着问
@@ -433,12 +415,30 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 - 服务器推荐？
 
   - 平时服务器都会比较贵，只有新用户和购物节会特别便宜，所以大家各凭本事吧，反正只要服务器能联网就能搭这个机器人。
-  - 推荐:https://www.tianjiyun.xyz
+  - 这里我推荐:https://www.tianjiyun.xyz
 
 - 插件除了这些还有别的吗
   - 更多的插件都在云崽官方群里，但是官方群它不对外开放...
   - 或者你可以学学自己写插件
   -不会？，那就看下面的教程吧
+
+
+### 常用链接
+>下载链接（均为网盘）有密码的均为114514
+
+- redis下载链接:[☞redis][redis]
+- git下载链接:[☞git][git]
+- node.js下载链接:[☞node.js][nodejs]
+- python3.8下载链接[☞python3.8][python]
+- ffmpeg下载链接[☞ffmpeg][ffmpeg]
+- 滑块验证助手下载链接[☞滑块验证][滑块验证]
+
+>你一定用的上的地址
+
+- 官方文档地址:[☞Yunzai-Bot][Yunzai-Bot]
+- Yunzai-Bot插件库：[☞Github](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)/[☞Gitee](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)
+- Yunzai-Bot（V3）：[☞Github](https://gitee.com/Le-niao/Yunzai-Bot)/[☞Gitee](https://gitee.com/Le-niao/Yunzai-Bot) 
+- Yunzai-Bot（V2）：[☞Github](https://gitee.com/yoimiya-kokomi/Yunzai-Bot)/[☞Gitee](https://gitee.com/yoimiya-kokomi/Yunzai-Bot) 
 
 ## Yunzai-Bot插件教学
 
