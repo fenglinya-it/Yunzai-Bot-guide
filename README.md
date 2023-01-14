@@ -351,7 +351,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
   - 重启一下试试
   - 重装一下试试
   - 换台设备试试
-  - 用这个试试baidu.com
+  - 用这个试试https://baidu.com
   - 实在不行就别搞了
   - 把后台报错日志截图，并准备好充足的问题描述(态度要好)
   - 将后台报错日志截图和完整的问题描述发到群里。
@@ -433,7 +433,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 - 服务器推荐？
 
   - 平时服务器都会比较贵，只有新用户和购物节会特别便宜，所以大家各凭本事吧，反正只要服务器能联网就能搭这个机器人。
-  - 推荐腾讯云新人特惠50一年2h2G
+  - 推荐:https://www.tianjiyun.xyz
 
 - 插件除了这些还有别的吗
   - 更多的插件都在云崽官方群里，但是官方群它不对外开放...
