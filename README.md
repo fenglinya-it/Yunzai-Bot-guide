@@ -356,7 +356,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
   - 实在不行就别搞了
   - 把后台报错日志截图，并准备好充足的问题描述(态度要好)
 
-<img src="picture/wenti2.png" width="30%">
+<img src="picture/wenti2.png" width="50%">
 
   - 将后台报错日志截图和完整的问题描述发到群里。
   - 等待有人为你解答
