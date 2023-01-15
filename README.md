@@ -17,7 +17,26 @@
 #### Windows:
 
 - 学不会怎么办，V我50我手把手教你
+
 - 环境准备:[Node.js][nodejs](建议版本v16.18.0),[redis][redis],[git][git]
+
+#####  安装git
+
+- 下载地址[git][git]
+
+<img src="picture/git.png" width="50%">
+
+- 一直点next
+
+##### 安装redis
+
+- 下载地址[redis][redis]
+- 解压后启动redis-server.exe
+
+<img src="picture/redis.png" width="50%">
+
+##### 安装Yunzai-Bot本体
+
 1. 新建一个文件夹(也可以不建)，命名随便，最好别用中文
 
 2. 右键文件夹，选择git bash here
