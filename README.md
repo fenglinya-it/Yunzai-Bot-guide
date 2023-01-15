@@ -415,7 +415,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 - 服务器推荐？
 
   - 平时服务器都会比较贵，只有新用户和购物节会特别便宜，所以大家各凭本事吧，反正只要服务器能联网就能搭这个机器人。
-  - 这里我推荐:https://www.tianjiyun.xyz
+  - 这里我推荐:[☞秋叶云][qiuyeyun]
 
 - 插件除了这些还有别的吗
   - 更多的插件都在云崽官方群里，但是官方群它不对外开放...
@@ -591,4 +591,5 @@ export class Helloworld extends plugin {
 [python]: https://wwrl.lanzouw.com/iK7uS0ixl0fi
 [ffmpeg]: https://wwrl.lanzouw.com/
 [滑块验证]: https://maupdate.rainchan.win/txcaptcha.apk
+[qiuyeyun]: https://qiuye.cloud/
 [qq]: https://qm.qq.com/cgi-bin/qm/qr?k=Cu1TnfTNNOdhx0lv17qbnTzp9lhOy_dJ&jump_from=webapi&authKey=8cmxRdVRamzJn0xPI2yet1a//X16faoVcTqD6P2vn/PIgJECkquiq8dyEoSgUJKt
