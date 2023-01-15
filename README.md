@@ -574,6 +574,12 @@ export class Helloworld extends plugin {
 |--------|--------------|
 |[原神交流][qq]|773089934|
 
+### 赞助
+
+- 编写不易
+
+<img src="picture/shoukuanma1.png" width="10%">
+<img src="picture/shoukuanma2.png" width="10%">
 
 
 
