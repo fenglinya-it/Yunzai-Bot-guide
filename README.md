@@ -600,8 +600,10 @@ export class Helloworld extends plugin {
 
 - 编写不易
 
-<img src="picture/shoukuanma1.png" width="10%">
-<img src="picture/shoukuanma2.png" width="10%">
+- [欸嘿](https://afdian.net/a/20091124eihei)[qianxinwanjiu]()
+
+<img src="picture/shoukuanma1.png" width="20%">
+<img src="picture/shoukuanma2.png" width="20%">
 
 
 
