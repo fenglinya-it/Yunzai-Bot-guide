@@ -384,6 +384,8 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 - 提示 `qq版本过低` ？
 
   - <img src="picture/wenti/qq.png" width="50%"> <br>此图来源于喵喵插件群
+
+  - 记得多试几次
   - 亲测有效
 
 - 提示 `请配置公共ck` ？
