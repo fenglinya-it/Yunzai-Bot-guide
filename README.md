@@ -24,7 +24,7 @@
 
 - 下载地址[git][git]
 
-<img src="picture/git.png" width="50%">
+<img src="picture/Windows/Windows-git.png" width="50%">
 
 - 一直点next
 
@@ -33,31 +33,31 @@
 - 下载地址[redis][redis]
 - 解压后启动redis-server.exe
 
-<img src="picture/redis.png" width="50%">
+<img src="picture/Windows/Windows-redis.png" width="50%">
 
 ##### 安装Yunzai-Bot本体
 
 1. 新建一个文件夹(也可以不建)，命名随便，最好别用中文
 
 2. 右键文件夹，选择git bash here
-<img src="picture/2.png" width="50%">
+<img src="picture/Windows/Windows-gitbash.png" width="50%">
 
 3. 克隆项目
 命令
 ```bash
 git clone --depth=1 -b main https://gitee.com/Le-niao/Yunzai-Bot.git
 ```
-<img src="picture/3.png" width="50%">
+<img src="picture/Windows/Windows-gitclone1.png" width="50%">
 
 - 这样就算成功了
-<img src="picture/4.png" width="50%">
+<img src="picture/Windows/Windows-gitclone2.png" width="50%">
 
 2. 进入Yunzai目录
 
 ```bash
 cd Yunzai-Bot 
 ```
-<img src="picture/5.png" width="50%">
+<img src="picture/Windows/Windows-cd.png" width="50%">
 
 3. 安装pnpm，已安装的可以跳过
 ```bash
@@ -75,13 +75,13 @@ npm install pnpm -g
 ```bash
 pnpm install -P
 ```
-<img src="picture/6.png" width="50%">
+<img src="picture/Windows/Windows-pnpm.png" width="50%">
 
 5. 运行（首次运行按提示输入登录）
 ```bash
 node app
 ```
-<img src="picture/7.png" width="50%">
+<img src="picture/Windows/Windows-nodeapp.png" width="50%">
 
 - 如果觉得麻烦，可使用脚本：
 
@@ -120,9 +120,9 @@ wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && sudo 
 ```
 >安装完成后，记得保存输出的面板地址和账号密码
 
-<img src="picture/12.png" width="50%">
+<img src="picture/Ubuntu/Ubuntu-bt1.png" width="50%">
 
-<img src="picture/13.png" width="50%">
+<img src="picture/Ubuntu/Ubuntu-bt2.png" width="50%">
 
 2. 安装Nodejs与redis
 - 打开面板地址，绑定手机号（如果你没有账号，请前往https://bt.cn/register.html注册）
@@ -131,30 +131,30 @@ wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && sudo 
 
 - 然后打开软件商店，搜索nodejs，找到nodejs版本管理器，
 
-<img src="picture/14.png" width="50%">
+<img src="picture/Ubuntu/Ubuntu-bt3.png" width="50%">
 
 - 点击安装
 
-<img src="picture/15.png" width="50%">
+<img src="picture/Ubuntu/Ubuntu-bt4.png" width="50%">
 
 
 - 点击安装即可
 
 - 然后来到此界面，按下图所示操作
 
-<img src="picture/16.png" width="50%">
+<img src="picture/Ubuntu/Ubuntu-bt5.png" width="50%">
 
 - 建议使用v16.18.0
 
-<img src="picture/17.png" width="50%">
+<img src="picture/Ubuntu/Ubuntu-bt6.png" width="50%">
 
 - 安装好后，点击右侧的模块管理，来到下图所示界面，按图操作
 
-<img src="picture/18.png" width="50%">
+<img src="picture/Ubuntu/Ubuntu-bt7.png" width="50%">
 
 - 安装完成，回到软件商店，搜索redis，按下图操作
 
-<img src="picture/19.png" width="50%">
+<img src="picture/Ubuntu/Ubuntu-bt8.png" width="50%">
 
 3. 安装Yunzai
 - 回到SSH终端，安装GIT，以便拉取仓库
@@ -165,7 +165,7 @@ wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && sudo 
 sudo apt-get install git
 ```
 
-<img src="picture/20.png" width="50%">
+<img src="picture/Ubuntu/Ubuntu-git.png" width="50%">
 
 - 等待执行完成
 
@@ -227,7 +227,7 @@ devDependencies: skipped
 Done in 13.5s
 ```
 
-<img src="picture/21.png" width="50%">
+<img src="picture/Ubuntu/Ubuntu-pnpm.png" width="50%">
 
 - 记住！WARN不要惊慌，看到ERR或者error才是你需要解决的
 
@@ -343,7 +343,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 #### [单个js格式插件通用安装方法](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index?_from=gitee_search#js%E6%8F%92%E4%BB%B6%E7%B4%A2%E5%BC%95)
 
 - 超级简单，只要把插件下载好后放入 `Yunzai-bot/plugins/example` 里即可 
-<img src="picture/1.png" width="100%">
+<img src="picture/wenti/js-plugins.png" width="100%">
 
 
 ### 问题解答
@@ -356,12 +356,12 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
   - 实在不行就别搞了
   - 把后台报错日志截图，并准备好充足的问题描述(态度要好)
 
-<img src="picture/wenti2.png" width="50%">
+<img src="picture/wenti/wenti2.png" width="50%">
 
   - 将后台报错日志截图和完整的问题描述发到群里。
   - 等待有人为你解答
 
-<img src="picture/wenti1.png" width="50%">
+<img src="picture/wenti/wenti1.png" width="50%">
 
 - cookie 绑定失败？
 
@@ -383,7 +383,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 - 提示 `qq版本过低` ？
 
-  - <img src="picture/9.png" width="50%"> <br>此图来源于喵喵插件群
+  - <img src="picture/wenti/qq.png" width="50%"> <br>此图来源于喵喵插件群
   - 亲测有效
 
 - 提示 `请配置公共ck` ？
@@ -396,7 +396,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
   - 不用慌，再绑定一个就是了
   - 或者 `#使用全部ck`
 
-- <img src="picture/8.png" width="50%"> <br> MISCONF Redis is configured to save RDB
+- <img src="picture/wenti/redis.png" width="50%"> <br> MISCONF Redis is configured to save RDB
   snapshots
 
   - 控制面板->系统和安全->系统->高级系统设置->高级选项卡下方第一个卡片“性能”里的设置按钮->高级选项卡->虚拟内存->更改->勾选最上方自动管理所有驱动器的分页文件大小->重启电脑
