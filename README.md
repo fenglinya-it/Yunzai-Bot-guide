@@ -470,6 +470,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
  
 ### 单个的js插件
 
+- [oicq][oicq]
 - 先新建一个文件，命名为Helloworld.js
 - <u>命名可以改的，最好别用中文，改命名时要记得把下面的类名改了(大小写得一样)</u>
 
@@ -625,4 +626,5 @@ export class Helloworld extends plugin {
 [ffmpeg]: https://wwrl.lanzouw.com/
 [滑块验证]: https://maupdate.rainchan.win/txcaptcha.apk
 [qiuyeyun]: https://qiuye.cloud/
+[oicq]: https://github.com/takayama-lily/oicq
 [qq]: https://qm.qq.com/cgi-bin/qm/qr?k=Cu1TnfTNNOdhx0lv17qbnTzp9lhOy_dJ&jump_from=webapi&authKey=8cmxRdVRamzJn0xPI2yet1a//X16faoVcTqD6P2vn/PIgJECkquiq8dyEoSgUJKt
