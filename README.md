@@ -40,16 +40,20 @@
 1. 新建一个文件夹(也可以不建)，命名随便，最好别用中文
 
 2. 右键文件夹，选择git bash here
+
 <img src="picture/Windows/Windows-gitbash.png" width="50%">
 
 3. 克隆项目
 命令
+
 ```bash
 git clone --depth=1 -b main https://gitee.com/Le-niao/Yunzai-Bot.git
 ```
+
 <img src="picture/Windows/Windows-gitclone1.png" width="50%">
 
 - 这样就算成功了
+
 <img src="picture/Windows/Windows-gitclone2.png" width="50%">
 
 2. 进入Yunzai目录
@@ -57,12 +61,15 @@ git clone --depth=1 -b main https://gitee.com/Le-niao/Yunzai-Bot.git
 ```bash
 cd Yunzai-Bot 
 ```
+
 <img src="picture/Windows/Windows-cd.png" width="50%">
 
 3. 安装pnpm，已安装的可以跳过
+
 ```bash
 npm install pnpm -g
 ```
+
 - （因为我已经安装过了，所以就不放图了）
 
 - 这里会发生的一些问题问题：
@@ -72,15 +79,19 @@ npm install pnpm -g
     就是有点后遗症，更换镜像源后有微小概率导致后续安装出现问题，所以如果你更换了镜像源以后遇到任何问题请勿向我提问;
 
 4. 安装依赖
+
 ```bash
 pnpm install -P
 ```
+
 <img src="picture/Windows/Windows-pnpm.png" width="50%">
 
 5. 运行（首次运行按提示输入登录）
+
 ```bash
 node app
 ```
+
 <img src="picture/Windows/Windows-nodeapp.png" width="50%">
 
 - 如果觉得麻烦，可使用脚本：
@@ -95,7 +106,7 @@ pause
 ```
 
 - 第一行中，第一个双引号无需填写，第二个双引号填写你redis路径
-= 第二行填写你Yunzai-Bot根目录
+- 第二行填写你Yunzai-Bot根目录
 
 #### Linux
 
@@ -115,9 +126,11 @@ pause
 - 因为便于管理文件（更改配置文件、上传面板图等）
 
 >使用以下命令安装：
+
 ```bash
 wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && sudo bash install.sh ed8484bec
 ```
+
 >安装完成后，记得保存输出的面板地址和账号密码
 
 <img src="picture/Ubuntu/Ubuntu-bt1.png" width="50%">
@@ -125,6 +138,7 @@ wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && sudo 
 <img src="picture/Ubuntu/Ubuntu-bt2.png" width="50%">
 
 2. 安装Nodejs与redis
+
 - 打开面板地址，绑定手机号（如果你没有账号，请前往https://bt.cn/register.html注册）
 
 - 登陆成功后，会显示一键安装页面，叉掉即可（不需要，因为不建站）
@@ -170,10 +184,13 @@ sudo apt-get install git
 - 等待执行完成
 
 - 然后拉取Yunzai，使用以下命令：
-```
+
+```bash
 git clone --depth=1 -b main https://gitee.com/Le-niao/Yunzai-Bot.git
 ```
+
 - 大致输出以下内容（没有ERR或error就不用管）
+
 ```log
 Cloning into 'Yunzai-Bot'...
 remote: Enumerating objects: 1073, done.
@@ -184,15 +201,21 @@ Receiving objects: 100% (1073/1073), 27.20 MiB | 11.79 MiB/s, done.
 Resolving deltas: 100% (25/25), done.
 Updating files: 100% (992/992), done.
 ```
+
 - 然后cd进Yunzai根目录
+
 ```bash
 cd Yunzai-Bot
 ```
+
 - pnpm安装过了，所以直接执行
+
 ```bash
 pnpm install -P
 ```
+
 输出大致如下
+
 ```log
  WARN  deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
 Packages: +362
@@ -233,25 +256,177 @@ Done in 13.5s
 
 - 然后node app启动机器人，按提示操作即可
 
-##### centos:
+##### CentOS教程:
 
 - 本教程地址:https://qianxinwanjiu.com/yunzai-linux-centos/#comment-29
-- 小白不建议使用Linux部署！
-- 不建议使用一键脚本！(除非你太废)
+- 前提条件
+- 首先，请确保你的环境完全干净，不支持已部署项目的机器（易翻车）
+
+- 本文示例系统：CentOS 7.9.2111
+
+- 开始安装
+- 安装Nodejs
+- 先安装dnf
+
+```bash
+yum install -y dnf
+```
+
+<img src="picture/CentOS/CentOS-dnf.png" width="50%">
+
+- 使用dnf安装fedora的epel-release插件
+
+```bash
+dnf install epel-release
+```
+
+- 将存储库加到系统中
+
+```bash
+curl -fsSL https://rpm.nodesource.com/setup_16.x | sudo bash -
+```
+
+- 安装nodejs，推荐大版本号16
+
+```bash
+dnf module install nodejs:16 -y
+```
+
+<img src="picture/CentOS/CentOS-nodejs.png" width="50%">
+
+- 然后测试是否正确安装
+
+```bash
+node -v
+```
+
+- 输出以下即为成功安装
+
+```log
+[root@CentOS7.9.2111 ~]# node -v
+v16.19.0
+```
+
+<img src="picture/CentOS/CentOS-node-v.png" width="50%">
+
+- 安装redis
+- 使用以下命令安装并启动redis
+
+```bash
+yum -y install redis && redis-server --daemonize yes
+```
+
+- 如果像下图一样报错，那么是你没安装epel，返回上文查看命令
+
+<img src="picture/CentOS/CentOS-error.png" width="50%">
+
+- 安装GIT
+
+```bash
+dnf install git -y
+```
+
+- 克隆仓库
+- 使用以下命令克隆仓库
+
+- 国内服务器（Gitee源）
+
+```bash
+git clone --depth=1 -b main https://gitee.com/Le-niao/Yunzai-Bot.git
+```
+
+- 国外服务器（GitHub源）
+
+```bash
+git clone --depth=1 -b main https://github.com/Le-niao/Yunzai-Bot.git
+```
+
+<img src="picture/CentOS/CentOS-git.png" width="50%">
+
+- 安装依赖
+- cd进Yunzai根目录（别告诉我你不会cd）
+
+```bash
+cd Yunzai-Bot
+```
+
+- 然后安装pnpm(-g表示全局)
+
+```bash
+npm install pnpm -g
+```
+
+<img src="picture/CentOS/CentOS-npm.png" width="50%">
+
+- 用pnpm安装依赖
+
+```bash
+pnpm install -P
+```
+
+<img src="picture/CentOS/CentOS-pnpm.png" width="50%">
+
+- 还需要安装Chrome依赖库
+
+```bash
+yum install pango.x86_64 libXcomposite.x86_64 libXcursor.x86_64 libXdamage.x86_64 libXext.x86_64 libXi.x86_64 libXtst.x86_64 cups-libs.x86_64 libXScrnSaver.x86_64 libXrandr.x86_64 GConf2.x86_64 alsa-lib.x86_64 atk.x86_64 gtk3.x86_64 -y && yum install libdrm libgbm libxshmfence -y && yum install nss -y && yum update nss -y
+```
+
+<img src="picture/CentOS/CentOS-Chrome.png" width="50%">
+
+- 安装中文字体，顺便把系统语言切换为中文
+
+```bash
+yum groupinstall fonts -y
+```
+
+<img src="picture/CentOS/CentOS-zh_CN1.png" width="50%">
+
+- 然后查看当前系统所有语言包
+
+```bash
+locale -a
+```
+
+<img src="picture/CentOS/CentOS-zh_CN2.png" width="50%">
+
+- 往下翻，找到zh_CN.utf-8
+
+<img src="picture/CentOS/CentOS-zh_CN3.png" width="50%">
+
+- 切换
+
+```bash
+localectl set-locale LANG=zh_CN.UTF-8
+```
+
+<img src="picture/CentOS/CentOS-zh_CN4.png" width="50%">
+
+- 然后重启
+
+- 启动Yunzai并按提示操作即可
+
+```bash
+node app
+```
+
+<img src="picture/CentOS/CentOS-nodeapp.png" width="50%">
 
 ### 基础操作
 
 - 启动云崽： `node app`
 
-- 查看日志： `npm run log`
+- 查看日志： `pnpm run log`
+
+- 后台运行： `pnpm start`
 
 - 关闭云崽： 对着机器人发送 `#关机`，或者在关掉云崽运行窗口
 
-- 功能列表： `#帮助`
+- 功能列表： `#帮助`,`#插件名称+帮助`
 
 - 更新云崽： `#全部更新`,`#强制更新`，`#更新`,`git pull`
 
-- 重置云崽的部分设置(QQ 号，主人 QQ 等)： `npm run login`
+- 重置云崽的部分设置(QQ 号，主人 QQ 等)： `pnpm run login`
 
 ---
 
@@ -273,6 +448,7 @@ Done in 13.5s
 - 注：均为V3插件
 
 #### [锅巴插件](https://gitee.com/guoba-yunzai/guoba-plugin) 
+
 - 主要提供云崽的网页端后台管理界面功能
 - 安装教程：
 - 第 1 步：下载插件
@@ -284,8 +460,6 @@ git clone --depth=1 https://gitee.com/guoba-yunzai/guoba-plugin.git ./plugins/Gu
 ```
 
 - 第 2 步：安装依赖
-
-- 方式1：采用 pnpm
 
 > 注：如果你不是通过`pnpm`安装的云崽，那么请【**不要**】使用此方式，请看`方式2`
 
@@ -325,6 +499,7 @@ git clone https://gitee.com/yoimiya-kokomi/miao-plugin.git ./plugins/miao-plugin
 - 进行安装。建议使用上述命令进行安装，以便于后续更新。 管理员发送`#喵喵更新`即可自动更新
 
 #### [抽卡插件 (flower-plugin)](https://gitee.com/Nwflower/flower-plugin)
+
 - flower-plugin是一个适用于V3版本Yunzai-Bot的原神图鉴插件包，主要提供拓展抽卡功能，意在不修改本体抽卡卡池信息的情况下提供自定义卡池的拓展
 
 - 在Yunzai-Bot根目录下，运行cmd，输入以下指令
@@ -337,8 +512,8 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 - 我个人的建议是：
 - 别去费精力装了
-- 直接装个nonebot不好吗
-- 换个登录端口直接实现1号俩机器人
+- 直接装个nonebot吧
+- 换个登录端口实现1号俩机器人
 
 #### [单个js格式插件通用安装方法](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index?_from=gitee_search#js%E6%8F%92%E4%BB%B6%E7%B4%A2%E5%BC%95)
 
@@ -347,6 +522,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 
 ### 问题解答
+
 - 遇到问题怎么办
   - 先不要急着问
   - 重启一下试试
@@ -398,8 +574,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
   - 不用慌，再绑定一个就是了
   - 或者 `#使用全部ck`
 
-- <img src="picture/wenti/redis.png" width="50%"> <br> MISCONF Redis is configured to save RDB
-  snapshots
+- <img src="picture/wenti/redis.png" width="50%"> <br> MISCONF Redis is configured to save RDB snapshots
 
   - 控制面板->系统和安全->系统->高级系统设置->高级选项卡下方第一个卡片“性能”里的设置按钮->高级选项卡->虚拟内存->更改->勾选最上方自动管理所有驱动器的分页文件大小->重启电脑
 
@@ -448,6 +623,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 
 ### 常用链接
+
 >下载链接（均为网盘）有密码的均为114514
 
 - redis下载链接:[☞redis][redis]
@@ -512,25 +688,30 @@ export class Helloworld extends plugin {
 ```
 
 #### reply函数的多种用法
-1. 直接发送内容
+
+1. 直接发送内容：
+
 ```javascript
     //发送内容:
     e.reply("Hello, world!");
 ```
 
-2. 是否引用回复
+2. 是否引用回复：
+
 ```javascript
 //是否引用回复:
 e.reply("Hello, world!", true);//false为否，true为是
 ```
 
-3. 群聊是否撤回消息
+3. 群聊是否撤回消息：
+
 ```javascript
 //群聊是否撤回消息:
 e.reply("Hello, world!", false, { recallMsg: 5 });//最大120，0则不处理
 ```
 
 4. 是否at用户:
+
 ```javascript
 //是否at用户:
 e.reply("Hello, world!", false, { recallMsg: 0 }, true);//false为否，true为是
@@ -591,6 +772,7 @@ export class Helloworld extends plugin {
     }
 };
 ```
+
 #### 各式的判断
 正在编写中
 
