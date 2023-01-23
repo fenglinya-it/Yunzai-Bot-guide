@@ -10,17 +10,15 @@
 - 我的博客:https://qianxinwanjiu.com/yunzai-bot-zhibei/
 - 我的仓库:https://gitee.com/lin-zhi-xuan/eihei
 
-## Yunzai-Bot
+## 安装Yunzai-Bot
 
-### 安装Yunzai-Bot
-
-#### Windows:
+### Windows:
 
 - 学不会怎么办，V我50我手把手教你
 
 - 环境准备:[Node.js][nodejs](建议版本v16.18.0),[redis][redis],[git][git]
 
-#####  安装git
+####  安装git
 
 - 下载地址[git][git]
 
@@ -28,14 +26,14 @@
 
 - 一直点next
 
-##### 安装redis
+#### 安装redis
 
 - 下载地址[redis][redis]
 - 解压后启动redis-server.exe
 
 <img src="picture/Windows/Windows-redis.png" width="50%">
 
-##### 安装Yunzai-Bot本体
+#### 安装Yunzai-Bot本体
 
 1. 新建一个文件夹(也可以不建)，命名随便，最好别用中文
 
@@ -108,9 +106,9 @@ pause
 - 第一行中，第一个双引号无需填写，第二个双引号填写你redis路径
 - 第二行填写你Yunzai-Bot根目录
 
-#### Linux
+### Linux
 
-##### Ubuntu教程
+#### Ubuntu教程
 
 - 本教程博客地址:https://qianxinwanjiu.com/yunzai-bot-linux-ubuntu/
 
@@ -256,7 +254,7 @@ Done in 13.5s
 
 - 然后node app启动机器人，按提示操作即可
 
-##### CentOS教程:
+#### CentOS教程:
 
 - 本教程地址:https://qianxinwanjiu.com/yunzai-linux-centos/#comment-29
 - 前提条件
@@ -412,7 +410,7 @@ node app
 
 <img src="picture/CentOS/CentOS-nodeapp.png" width="50%">
 
-### 基础操作
+## 基础操作
 
 - 启动云崽： `node app`
 
@@ -430,7 +428,7 @@ node app
 
 ---
 
-### 目录说明
+## 目录说明
 
 | 目录                     | 说明                           |
 | ------------------------ | ------------------------------ |
@@ -443,11 +441,11 @@ node app
 | plugins\example          | 存放 js 插件的位置             |
 | Yunzai-Bot\plugins       | 存放大型插件的位置，如喵喵插件 |
 
-### 插件安装教程
+## 插件安装教程
 
 - 注：均为V3插件
 
-#### [锅巴插件](https://gitee.com/guoba-yunzai/guoba-plugin) 
+### [锅巴插件](https://gitee.com/guoba-yunzai/guoba-plugin) 
 
 - 主要提供云崽的网页端后台管理界面功能
 - 安装教程：
@@ -482,7 +480,7 @@ pnpm install --filter=guoba-plugin
 
 如果访问不到，请发送`#锅巴帮助`指令获取帮助。
 
-#### [喵喵插件 (miao-plugin)](https://gitee.com/yoimiya-kokomi/miao-plugin)
+### [喵喵插件 (miao-plugin)](https://gitee.com/yoimiya-kokomi/miao-plugin)
 
 - Miao-Plugin是一个Yunzai-Bot的升级插件，提供包括角色查询等升级功能。
 
@@ -498,7 +496,7 @@ git clone https://gitee.com/yoimiya-kokomi/miao-plugin.git ./plugins/miao-plugin
 
 - 进行安装。建议使用上述命令进行安装，以便于后续更新。 管理员发送`#喵喵更新`即可自动更新
 
-#### [抽卡插件 (flower-plugin)](https://gitee.com/Nwflower/flower-plugin)
+### [抽卡插件 (flower-plugin)](https://gitee.com/Nwflower/flower-plugin)
 
 - flower-plugin是一个适用于V3版本Yunzai-Bot的原神图鉴插件包，主要提供拓展抽卡功能，意在不修改本体抽卡卡池信息的情况下提供自定义卡池的拓展
 
@@ -508,20 +506,20 @@ git clone https://gitee.com/yoimiya-kokomi/miao-plugin.git ./plugins/miao-plugin
 git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flower-plugin/
 ```
 
-#### py插件
+### py插件
 
 - 我个人的建议是：
 - 别去费精力装了
 - 直接装个nonebot吧
 - 换个登录端口实现1号俩机器人
 
-#### [单个js格式插件通用安装方法](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index?_from=gitee_search#js%E6%8F%92%E4%BB%B6%E7%B4%A2%E5%BC%95)
+### [单个js格式插件通用安装方法](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index?_from=gitee_search#js%E6%8F%92%E4%BB%B6%E7%B4%A2%E5%BC%95)
 
 - 超级简单，只要把插件下载好后放入 `Yunzai-bot/plugins/example` 里即可 
 <img src="picture/wenti/js-plugins.png" width="100%">
 
 
-### 问题解答
+## 问题解答
 
 - 遇到问题怎么办
   - 先不要急着问
@@ -622,7 +620,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
   -不会？，那就看下面的教程吧
 
 
-### 常用链接
+## 常用链接
 
 >下载链接（均为网盘）有密码的均为114514
 
