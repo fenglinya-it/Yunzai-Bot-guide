@@ -20,7 +20,7 @@
 
 ####  安装git
 
-- 下载地址[git][git],密码114514
+- 下载地址[git][git],密码:114514
 
 <img src="picture/Windows/Windows-git.png" width="50%">
 
@@ -28,7 +28,8 @@
 
 #### 安装redis
 
-- 下载地址[redis][redis],密码114514
+- 下载地址[redis][redis],密码:114514
+
 - 解压后启动redis-server.exe
 
 <img src="picture/Windows/Windows-redis.png" width="50%">
@@ -48,13 +49,9 @@
 git clone --depth=1 -b main https://gitee.com/Le-niao/Yunzai-Bot.git
 ```
 
-<img src="picture/Windows/Windows-gitclone1.png" width="50%">
+<img src="picture/Windows/Windows-gitclone.png" width="50%">
 
-- 这样就算成功了
-
-<img src="picture/Windows/Windows-gitclone2.png" width="50%">
-
-2. 进入Yunzai目录
+4. 进入Yunzai目录
 
 ```bash
 cd Yunzai-Bot 
@@ -62,7 +59,7 @@ cd Yunzai-Bot
 
 <img src="picture/Windows/Windows-cd.png" width="50%">
 
-3. 安装pnpm，已安装的可以跳过
+5. 安装pnpm，已安装的可以跳过
 
 ```bash
 npm install pnpm -g
@@ -70,13 +67,13 @@ npm install pnpm -g
 
 - （因为我已经安装过了，所以就不放图了）
 
-- 这里会发生的一些问题问题：
+- 这里会发生的一些问题：
     输完卡住不动了怎么办？或者提示 `npm ERR！`？或者其他的报错？  
     原因：你的服务器太逊了(网络太差了)，根本下载不动，没问题才怪了。
     解决方案：换源，执行命令来更换淘宝镜像源 `npm config set registry https://registry.npmmirror.com` 然后再次执行安装 pnpm 的命令 `npm install pnpm -g`  
     就是有点后遗症，更换镜像源后有微小概率导致后续安装出现问题，所以如果你更换了镜像源以后遇到任何问题请勿向我提问;
 
-4. 安装依赖
+6. 安装依赖
 
 ```bash
 pnpm install -P
@@ -84,7 +81,7 @@ pnpm install -P
 
 <img src="picture/Windows/Windows-pnpm.png" width="50%">
 
-5. 运行（首次运行按提示输入登录）
+7. 运行（首次运行按提示输入登录）
 
 ```bash
 node app
@@ -96,7 +93,7 @@ node app
 
 >新建一个文件,把后缀改成bat,然后点击编辑
 
-```bash
+```bat
 start "" "C:/redis/redis-server.exe"
 cd C:/Yunzai-Bot
 node app
