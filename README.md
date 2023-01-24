@@ -20,7 +20,7 @@
 
 ####  安装git
 
-- 下载地址[git][git]
+- 下载地址[git][git],密码114514
 
 <img src="picture/Windows/Windows-git.png" width="50%">
 
@@ -28,7 +28,7 @@
 
 #### 安装redis
 
-- 下载地址[redis][redis]
+- 下载地址[redis][redis],密码114514
 - 解压后启动redis-server.exe
 
 <img src="picture/Windows/Windows-redis.png" width="50%">
@@ -440,6 +440,23 @@ node app
 | logs\                    | 存放日志文件的位置              |
 | plugins\example          | 存放 js 插件的位置             |
 | Yunzai-Bot\plugins       | 存放大型插件的位置，如喵喵插件 |
+
+## ffmpeg安装教程
+
+- 先下载压缩包
+- ffmpeg下载链接[☞ffmpeg][ffmpeg],密码114514
+- 下载完后解压,位置随便
+- 之后找到ffmpeg.exe和ffprobe.exe,复制文件路径
+
+<img src="picture/ffmpeg/ffmpeg-1.png" width="50%">
+
+- 之后找到配置文件,如下图
+
+<img src="picture/ffmpeg/ffmpeg-2.png" width="50%">
+
+- 最后把路径粘贴到下图的位置(注意:冒号后面有空格)
+
+<img src="picture/ffmpeg/ffmpeg-3.png" width="50%">
 
 ## 插件安装教程
 
