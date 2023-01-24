@@ -5,8 +5,8 @@
 [![](https://profile-counter.glitch.me/eihei/count.svg)](https://gitee.com/lin-zhi-xuan/eihei)
 - Yunzai-Bot是原神qq群机器人，通过米游社接口，查询原神游戏信息，快速生成图片返回，
 - 此指南是教你如何安装Yunzai-Bot和它的插件，编写插件和一些问题的解决方法。
-- 注：本指南暂未完善，欢迎大家提交Issues和Pull Requests
-- 点个star，谢谢
+- 本指南暂未完善，欢迎大家提交Issues和Pull Requests
+- 求个star，谢谢
 - 我的博客:https://qianxinwanjiu.com/yunzai-bot-zhibei/
 - 我的仓库:https://gitee.com/lin-zhi-xuan/eihei
 
