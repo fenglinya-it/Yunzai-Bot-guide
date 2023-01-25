@@ -38,9 +38,17 @@
 
 1. 新建一个文件夹(也可以不建)，命名随便，最好别用中文
 
-2. 右键文件夹，选择git bash here
+2. 选个拉取方式:
+
+**使用git-bash**
+* 1.1 右键文件夹，选择git bash here
 
 <img src="picture/Windows/Windows-gitbash.png" width="50%">
+
+**使用原生自带终端**
+* 2.1 进入你要安装Yunzai的文件夹
+
+* 2.2 打开终端(在文件夹路径处将文件家路径改为cmd或者powershell)
 
 3. 克隆项目
 命令
