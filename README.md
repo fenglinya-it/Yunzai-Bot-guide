@@ -78,10 +78,10 @@ npm install pnpm -g
 - （因为我已经安装过了，所以就不放图了）
 
 - 这里会发生的一些问题：
-    输完卡住不动了怎么办？或者提示 `npm ERR！`？或者其他的报错？  
+    输完卡住不动了怎么办？或者提示 `npm ERR！`？或者其他的报错？
     原因：你的服务器太逊了(网络太差了)，根本下载不动，没问题才怪了。
-    解决方案：换源，执行命令来更换淘宝镜像源 `npm config set registry https://registry.npmmirror.com` 然后再次执行安装 pnpm 的命令 `npm install pnpm -g`  
-    就是有点后遗症，更换镜像源后有微小概率导致后续安装出现问题，所以如果你更换了镜像源以后遇到任何问题请勿向我提问;
+    解决方案：换源，执行命令来更换淘宝镜像源 `npm config set registry http://registry.npm.taobao.org` 然后再次执行安装 pnpm 的命令 `npm install pnpm -g`  
+    就是可能有点后遗症，更换镜像源后有微小概率导致后续安装出现问题
 
 6. 安装依赖
 
