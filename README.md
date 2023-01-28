@@ -450,12 +450,18 @@ node app
 
 ## ffmpeg安装教程
 
-- 先下载压缩包
+1. 先下载压缩包
 - ffmpeg下载链接[☞ffmpeg][ffmpeg],密码114514
-- 下载完后解压,位置随便
-- 之后找到ffmpeg.exe和ffprobe.exe,复制文件路径
+
+2. 下载完后解压,位置随便
+
+3. 之后找到ffmpeg.exe和ffprobe.exe,复制文件路径
 
 <img src="picture/ffmpeg/ffmpeg-1.png" width="50%">
+
+4. 填写路径,有两种方法。
+
+**直接修改配置文件**
 
 - 之后找到配置文件,如下图
 
@@ -464,6 +470,20 @@ node app
 - 最后把路径粘贴到下图的位置(注意:冒号后面有空格)
 
 <img src="picture/ffmpeg/ffmpeg-3.png" width="50%">
+
+**锅巴里面设置**
+
+- 先登陆锅巴
+
+- 然后点配置管理-->基础配置
+- 把路径粘贴进去
+- 最后点保存
+
+<img src="picture/ffmpeg/ffmpeg-4.png" width="50%">
+
+>注意事项:
+>路径不能有空格，必须用单引号，必须用反斜杠。
+>有些时候日志提示 `请检查ffmpeg配置` 可能是插件本身的问题，而不是你的 ffmpeg 没配置好
 
 ## 插件安装教程
 
