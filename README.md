@@ -722,21 +722,21 @@ export class Helloworld extends plugin {
 
 ```javascript
 //是否引用回复:
-e.reply("Hello, world!", true);//false为否，true为是
+e.reply("Hello, world!", true);//false为不引用，true为引用
 ```
 
 3. 群聊是否撤回消息：
 
 ```javascript
 //群聊是否撤回消息:
-e.reply("Hello, world!", false, { recallMsg: 5 });//最大120，0则不处理
+e.reply("Hello, world!", false, { recallMsg: 5 });//最大120秒后撤回，0则不处理
 ```
 
 4. 是否at用户:
 
 ```javascript
 //是否at用户:
-e.reply("Hello, world!", false, { recallMsg: 0 }, true);//false为否，true为是
+e.reply("Hello, world!", false, { recallMsg: 0 }, true);//false为不at用户，true为at用户
 ```
 
 #### 如何使用回复组件
@@ -780,13 +780,14 @@ export class Helloworld extends plugin {
         //获取消息
         let xiaoxi = e.message;
         //判断消息
-        if (xiaoxi == 3) {
+        if (xiaoxi == 3) {   //是
             //回复
             e.reply("回答正确")
             //结束上下文
             this.finish('hei')
         }
-        else {
+        else {               //否
+            //回复
             e.reply("回答错误")
             //再次使用执行hei方法 
             this.setContext('hei')
@@ -796,7 +797,8 @@ export class Helloworld extends plugin {
 ```
 
 #### 各式的判断
-正在编写中
+
+预计1月30号更新
 
 ### 交流群
 |  群名  |      群号     |
