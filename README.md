@@ -699,11 +699,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 ## Yunzai-Bot插件编写教学
 
-[Yunzai-Bot插件编写教学](./plugins.md)
-
-#### 各式的判断
-
-预计...没有预计（开学随缘更新）
+- [Yunzai-Bot插件编写教学](./plugins.md)
 
 ### 交流群
 |群名|群主|
