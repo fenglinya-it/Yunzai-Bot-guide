@@ -10,6 +10,8 @@
 - 我的博客:[qianxinwanjiu](https://qianxinwanjiu.com/yunzai-bot-zhibei/)
 - 我的仓库:[gitee](https://gitee.com/lin-zhi-xuan/eihei)
 
+## [目录](./Directory.md)
+
 ## 安装Yunzai-Bot
 
 ### Windows:
