@@ -10,26 +10,6 @@
 - 我的博客:[qianxinwanjiu](https://qianxinwanjiu.com/yunzai-bot-zhibei/)
 - 我的仓库:[gitee](https://gitee.com/lin-zhi-xuan/eihei)
 
-##目录
-
-### [Yunzai-Bot的Windows安装教程](#Windows)
-
-### [Yunzai-Bot的Linux安装教程](#Linux)
-
-### [基础操作](#基础操作)
-
-### [目录说明](#目录说明)
-
-### [ffmpeg安装教程](#ffmpeg安装教程)
-
-### [插件安装教程](#插件安装教程)
-
-### [问题解答](#问题解答)
-
-### [常用链接](#常用链接)
-
-### [Yunzai-Bot插件编写教学](#Yunzai-Bot插件编写教学)
-
 ## 安装Yunzai-Bot
 
 ### Windows:
