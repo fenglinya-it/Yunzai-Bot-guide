@@ -503,7 +503,7 @@ node app
 
 - 注：均为V3插件
 
-### [锅巴插件](https://gitee.com/guoba-yunzai/guoba-plugin) 
+### [锅巴插件(Guoba-Plugin)](https://gitee.com/guoba-yunzai/guoba-plugin) 
 
 - 主要提供云崽的网页端后台管理界面功能
 - 安装教程：
