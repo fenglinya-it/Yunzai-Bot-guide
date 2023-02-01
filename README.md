@@ -832,9 +832,9 @@ export class Helloworld extends plugin {
 预计...没有预计（开学随缘更新）
 
 ### 交流群
-|  群名  |      群号     |
-|--------|--------------|
-|[原神交流][qq]|773089934|
+|群名|群主|
+|----|----|
+|[原神交流][qq]|@eihei[https://gitee.com/lin-zhi-xuan]|
 
 ### 赞助
 
