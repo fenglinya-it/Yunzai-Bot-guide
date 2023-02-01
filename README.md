@@ -722,9 +722,9 @@ export class Helloworld extends plugin {
             priority: 250,//执行优先级：数值越低越6
             rule: [
                 {
-                    //正则:也就是触发指令
+                    //正则表达试
                     reg: '^#你好$',
-                    //函数:触发上面指令后调用的函数
+                    //函数
                     fnc: 'Helloworld'
                 }
             ]
@@ -789,9 +789,9 @@ export class Helloworld extends plugin {
             priority: 250,//执行优先级：数值越低越6
             rule: [
                 {
-                    //正则:也就是触发指令
+                    //正则表达式
                     reg: '^#你干嘛诶哟$',
-                    //函数:触发上面指令后调用的函数
+                    //函数
                     fnc: 'Helloworld'
                 }
             ]
