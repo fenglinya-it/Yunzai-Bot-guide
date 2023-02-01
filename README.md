@@ -679,14 +679,15 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 >下载链接（均为网盘）有密码的均为114514
 
-- redis下载链接:[☞redis][redis]
-- git下载链接:[☞git][git]
-- node.js下载链接:[☞node.js][nodejs]
-- python3.8下载链接[☞python3.8][python]
-- ffmpeg下载链接[☞ffmpeg][ffmpeg]
-- 滑块验证助手下载链接[☞滑块验证][滑块验证]
+|名称|下载地址|
+|---|---|
+|redis|[☞redis][redis]|
+|git|[☞git][git]|
+|node.js|[☞node.js][nodejs]|
+|python3.8|[☞python3.8][python]|
+|ffmpeg|[☞ffmpeg][ffmpeg]|
+|滑块验证助手|[☞滑块验证][滑块验证]|
 
->你一定用的上的地址
 
 - 官方文档地址:[☞Yunzai-Bot][Yunzai-Bot]
 - Yunzai-Bot插件库：[☞Github](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)/[☞Gitee](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)
@@ -695,7 +696,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 ## Yunzai-Bot插件教学
 
-- 推荐使用vccode编写[☞下载][vccode]
+- 推荐使用VCcode编写[☞下载][vccode]
  
 ### 单个的js插件
 
