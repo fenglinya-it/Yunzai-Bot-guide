@@ -701,12 +701,12 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 - [Yunzai-Bot插件编写教学](./plugins.md)
 
-### 交流群
+## 交流群
 |群名|群主|
 |----|----|
 |[原神交流][qq]|@eihei[https://gitee.com/lin-zhi-xuan]|
 
-### 赞助
+## 赞助
 
 - 编写不易
 
@@ -715,7 +715,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 ## 开学通知
 
-- 我已开学，以后随缘更新
+- 作者我已开学，以后随缘更新，大概1周会有一次更新
 
 
 
