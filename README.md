@@ -30,7 +30,9 @@
 
 - 下载地址[redis][redis],密码:114514
 
-- 解压后启动redis-server.exe
+- 解压后启动redis-server.exe这个文件。
+
+- 要一直开着，不能关掉。
 
 <img src="picture/Windows/Windows-redis.png" width="50%">
 
@@ -53,7 +55,8 @@
 - 2.2 打开终端(在文件夹路径处将文件家路径改为cmd或者powershell)
 
 3. 克隆项目
-命令
+
+- 命令
 
 ```bash
 git clone --depth=1 -b main https://gitee.com/Le-niao/Yunzai-Bot.git
@@ -103,6 +106,11 @@ node app
 
 >新建一个文件,把后缀改成bat,然后点击编辑
 
+- 把下面代码复制进去，然后进行修改:
+
+- 第一行中，第一个双引号无需填写，第二个双引号填写你redis路径
+- 第二行填写你Yunzai-Bot根目录
+
 ```bat
 start "" "C:/redis/redis-server.exe"
 cd C:/Yunzai-Bot
@@ -110,17 +118,18 @@ node app
 pause
 ```
 
-- 第一行中，第一个双引号无需填写，第二个双引号填写你redis路径
-- 第二行填写你Yunzai-Bot根目录
+- 改完后保存运行即可食用
 
 ### Linux
+
+**前言**
+
+- 小白不建议使用Linux部署！
+- 不建议使用一键脚本！(除非你太废)
 
 #### Ubuntu教程
 
 - 本教程博客地址:https://qianxinwanjiu.com/yunzai-bot-linux-ubuntu/
-
-- 小白不建议使用Linux部署！
-- 不建议使用一键脚本！(除非你太废)
 
 >本文的环境：
 >纯净的Ubuntu（版本20.04）
@@ -820,7 +829,7 @@ export class Helloworld extends plugin {
 
 #### 各式的判断
 
-预计1月30号更新
+预计x天后更新
 
 ### 交流群
 |  群名  |      群号     |
@@ -834,7 +843,9 @@ export class Helloworld extends plugin {
 - [欸嘿爱发电](https://afdian.net/a/20091124eihei)
 - [qianxinwanjiu爱发电](https://afdian.net/a/qianxinwanjiu)
 
+## 开学通知
 
+- 我已开学，更新将变成一种
 
 
 
