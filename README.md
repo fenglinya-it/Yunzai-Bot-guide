@@ -829,7 +829,7 @@ export class Helloworld extends plugin {
 
 #### 各式的判断
 
-预计x天后更新
+预计...没有预计（开学随缘更新）
 
 ### 交流群
 |  群名  |      群号     |
@@ -845,7 +845,7 @@ export class Helloworld extends plugin {
 
 ## 开学通知
 
-- 我已开学，更新将变成一种
+- 我已开学，以后随缘更新
 
 
 
