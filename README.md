@@ -7,8 +7,8 @@
 - 此指南是教你如何安装Yunzai-Bot和它的插件，编写插件和一些问题的解决方法。
 - 本指南暂未完善，欢迎大家提交Issues和Pull Requests
 - 求个star，谢谢
-- 我的博客:https://qianxinwanjiu.com/yunzai-bot-zhibei/
-- 我的仓库:https://gitee.com/lin-zhi-xuan/eihei
+- 我的博客:[qianxinwanjiu](https://qianxinwanjiu.com/yunzai-bot-zhibei/)
+- 我的仓库:[gitee](https://gitee.com/lin-zhi-xuan/eihei)
 
 ## 安装Yunzai-Bot
 
@@ -82,7 +82,7 @@ npm install pnpm -g
 
 - 这里会发生的一些问题：
     输完卡住不动了怎么办？或者提示 `npm ERR！`？或者其他的报错？
-    原因：你的服务器太逊了(网络太差了)，根本下载不动，没问题才怪了。
+    原因：你的服务器网络太差了，根本下载不动，没问题才怪了。
     解决方案：换源，执行命令来更换淘宝镜像源 `npm config set registry http://registry.npm.taobao.org` 然后再次执行安装 pnpm 的命令 `npm install pnpm -g`  
     就是可能有点后遗症，更换镜像源后有微小概率导致后续安装出现问题
 
@@ -125,7 +125,7 @@ pause
 **前言**
 
 - 小白不建议使用Linux部署！
-- 不建议使用一键脚本！(除非你太废)
+- 不建议使用一键脚本！
 
 #### Ubuntu教程
 
