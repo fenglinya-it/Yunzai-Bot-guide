@@ -2,14 +2,14 @@
 
 ## [Yunzai-Bot的Windows安装教程](https://gitee.com/lin-zhi-xuan/eihei#windows)
 
-### [安装git](https://gitee.com/lin-zhi-xuan/eihei/tree/master#%E5%AE%89%E8%A3%85git)
-### [安装redis](https://gitee.com/lin-zhi-xuan/eihei/tree/master#%E5%AE%89%E8%A3%85redis)
-### [安装Yunzai-Bot本体](https://gitee.com/lin-zhi-xuan/eihei/tree/master#%E5%AE%89%E8%A3%85yunzai-bot%E6%9C%AC%E4%BD%93)
+  ### [安装git](https://gitee.com/lin-zhi-xuan/eihei/tree/master#%E5%AE%89%E8%A3%85git)
+  ### [安装redis](https://gitee.com/lin-zhi-xuan/eihei/tree/master#%E5%AE%89%E8%A3%85redis)
+  ### [安装Yunzai-Bot本体](https://gitee.com/lin-zhi-xuan/eihei/tree/master#%E5%AE%89%E8%A3%85yunzai-bot%E6%9C%AC%E4%BD%93)
 
 ## [Yunzai-Bot的Linux安装教程](https://gitee.com/lin-zhi-xuan/eihei#linux)
 
-### [Ubuntu20.04教程](https://gitee.com/lin-zhi-xuan/eihei/tree/master#ubuntu%E6%95%99%E7%A8%8B)
-### [CentOS 7.9.2111](https://gitee.com/lin-zhi-xuan/eihei/tree/master#centos%E6%95%99%E7%A8%8B)
+  ### [Ubuntu20.04教程](https://gitee.com/lin-zhi-xuan/eihei/tree/master#ubuntu%E6%95%99%E7%A8%8B)
+  ### [CentOS 7.9.2111](https://gitee.com/lin-zhi-xuan/eihei/tree/master#centos%E6%95%99%E7%A8%8B)
 
 ## [基础操作](https://gitee.com/lin-zhi-xuan/eihei#%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C)
 
