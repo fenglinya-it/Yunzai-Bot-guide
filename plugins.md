@@ -1,6 +1,6 @@
 # Yunzai-Bot插件编写教学
 
-- 推荐使用VCcode编写[☞下载][vccode]
+- 推荐使用VCcode编写[☞下载](https://code.visualstudio.com/)
  
 ## 单个的js插件
 

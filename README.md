@@ -19,11 +19,11 @@
 
 - 学不会怎么办，V我50我手把手教你
 
-- 环境准备:[Node.js][nodejs](建议版本v16.18.0),[redis][redis],[git][git]
+- 环境准备:[Node.js](http://nodejs.cn/download/)(建议版本v16.18.0),[redis](https://wwrl.lanzouw.com/iB1f70hizgxa),[git](https://wwrl.lanzouw.com/iBjDY0hizgre)
 
 ####  安装git
 
-- 下载地址[git][git],密码:114514
+- 下载地址[git](https://wwrl.lanzouw.com/iBjDY0hizgre),密码:114514
 
 <img src="picture/Windows/Windows-git.png" width="50%">
 
@@ -31,7 +31,7 @@
 
 #### 安装redis
 
-- 下载地址[redis][redis],密码:114514
+- 下载地址[redis](https://wwrl.lanzouw.com/iB1f70hizgxa),密码:114514
 
 - 解压后启动redis-server.exe这个文件。
 
@@ -463,7 +463,7 @@ node app
 ## ffmpeg安装教程
 
 1. 先下载压缩包
-- ffmpeg下载链接[☞ffmpeg][ffmpeg],密码114514
+- ffmpeg下载链接[☞ffmpeg](https://wwrl.lanzouw.com/),密码114514
 
 2. 下载完后解压,位置随便
 
@@ -665,12 +665,12 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 - 15. 十连次数怎么修改？
 
-  - [锅巴插件]里可以配置
+  - 锅巴插件里可以配置
 
 - 16. 服务器推荐？
 
   - 服务器都挺贵的，一般只有新用户和购物节会特别便宜，所以大家各凭本事吧，反正只要是台能联网的就能搭这个机器人。
-  - 这里我推荐:[☞秋叶云][qiuyeyun]
+  - 这里我推荐:[☞秋叶云](https://qiuye.cloud/)
 
 - 17. 插件除了这些还有别的吗
   - 更多的插件都在云崽官方群里，但是官方群它不对外开放...
@@ -684,15 +684,15 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 |名称|下载地址|
 |---|---|
-|redis|[☞redis][redis]|
-|git|[☞git][git]|
-|node.js|[☞node.js][nodejs]|
-|python3.8|[☞python3.8][python]|
-|ffmpeg|[☞ffmpeg][ffmpeg]|
-|滑块验证助手|[☞滑块验证][滑块验证]|
+|redis|[☞redis][https://wwrl.lanzouw.com/iB1f70hizgxa]|
+|git|[☞git][https://wwrl.lanzouw.com/iBjDY0hizgre]|
+|node.js|[☞node.js][http://nodejs.cn/download/]|
+|python3.8|[☞python3.8][https://wwrl.lanzouw.com/iK7uS0ixl0fi]|
+|ffmpeg|[☞ffmpeg](https://wwrl.lanzouw.com/)|
+|滑块验证助手|[☞滑块验证](https://maupdate.rainchan.win/txcaptcha.apk)|
 
 
-- 官方文档地址:[☞Yunzai-Bot][Yunzai-Bot]
+- 官方文档地址:[☞Yunzai-Bot](https://docs.yunzai.org/)
 - Yunzai-Bot插件库：[☞Github](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)/[☞Gitee](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)
 - Yunzai-Bot（V3）：[☞Github](https://gitee.com/Le-niao/Yunzai-Bot)/[☞Gitee](https://gitee.com/Le-niao/Yunzai-Bot) 
 - Yunzai-Bot（V2）：[☞Github](https://gitee.com/yoimiya-kokomi/Yunzai-Bot)/[☞Gitee](https://gitee.com/yoimiya-kokomi/Yunzai-Bot) 
@@ -704,7 +704,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 ## 交流群
 |群名|群主|
 |----|----|
-|[原神交流][qq]|[@eihei](https://gitee.com/lin-zhi-xuan)|
+|[原神交流](https://qm.qq.com/cgi-bin/qm/qr?k=Cu1TnfTNNOdhx0lv17qbnTzp9lhOy_dJ&jump_from=webapi&authKey=8cmxRdVRamzJn0xPI2yet1a//X16faoVcTqD6P2vn/PIgJECkquiq8dyEoSgUJKt)|[@eihei](https://gitee.com/lin-zhi-xuan)|
 
 ## 赞助
 
@@ -722,16 +722,3 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 
 
-[Yunzai]: https://gitee.com/Le-niao/Yunzai-Bot
-[Yunzai-Bot]: https://docs.yunzai.org/
-[redis]: https://wwrl.lanzouw.com/iB1f70hizgxa
-[git]: https://wwrl.lanzouw.com/iBjDY0hizgre
-[nodejs]: http://nodejs.cn/download/
-[vccode]: https://code.visualstudio.com/
-[plugins]: https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index
-[python]: https://wwrl.lanzouw.com/iK7uS0ixl0fi
-[ffmpeg]: https://wwrl.lanzouw.com/
-[滑块验证]: https://maupdate.rainchan.win/txcaptcha.apk
-[qiuyeyun]: https://qiuye.cloud/
-[oicq]: https://github.com/takayama-lily/oicq
-[qq]: https://qm.qq.com/cgi-bin/qm/qr?k=Cu1TnfTNNOdhx0lv17qbnTzp9lhOy_dJ&jump_from=webapi&authKey=8cmxRdVRamzJn0xPI2yet1a//X16faoVcTqD6P2vn/PIgJECkquiq8dyEoSgUJKt
