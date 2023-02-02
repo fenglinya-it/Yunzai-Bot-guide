@@ -597,7 +597,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 ## 问题解答
 
-- [问题解答](./lssue.md)
+- [问题解答](./issue.md)
 
 ## Yunzai-Bot插件编写教学
 
