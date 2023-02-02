@@ -684,10 +684,10 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 |名称|下载地址|
 |---|---|
-|redis|[☞redis][https://wwrl.lanzouw.com/iB1f70hizgxa]|
-|git|[☞git][https://wwrl.lanzouw.com/iBjDY0hizgre]|
-|node.js|[☞node.js][http://nodejs.cn/download/]|
-|python3.8|[☞python3.8][https://wwrl.lanzouw.com/iK7uS0ixl0fi]|
+|redis|[☞redis](https://wwrl.lanzouw.com/iB1f70hizgxa)|
+|git|[☞git](https://wwrl.lanzouw.com/iBjDY0hizgre)|
+|node.js|[☞node.js](http://nodejs.cn/download/)|
+|python3.8|[☞python3.8](https://wwrl.lanzouw.com/iK7uS0ixl0fi)|
 |ffmpeg|[☞ffmpeg](https://wwrl.lanzouw.com/)|
 |滑块验证助手|[☞滑块验证](https://maupdate.rainchan.win/txcaptcha.apk)|
 
