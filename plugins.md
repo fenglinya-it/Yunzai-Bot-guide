@@ -4,7 +4,7 @@
  
 ## 单个的js插件
 
-- [oicq][oicq]
+- [oicq](https://github.com/takayama-lily/oicq)
 - 先新建一个文件，命名为Helloworld.js
 - <u>命名可以改的，最好别用中文，改命名时要记得把下面的类名改了(大小写得一样)</u>
 

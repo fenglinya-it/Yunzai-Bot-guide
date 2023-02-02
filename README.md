@@ -704,7 +704,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 ## 交流群
 |群名|群主|
 |----|----|
-|[原神交流][qq]|@eihei[https://gitee.com/lin-zhi-xuan]|
+|[原神交流][qq]|[@eihei](https://gitee.com/lin-zhi-xuan)|
 
 ## 赞助
 
