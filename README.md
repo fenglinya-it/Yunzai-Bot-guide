@@ -576,108 +576,6 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 - 超级简单，只要把插件下载好后放入 `Yunzai-bot/plugins/example` 里即可 
 <img src="picture/wenti/js-plugins.png" width="100%">
 
-
-## 问题解答
-
-- 遇到问题怎么办
-  - 先不要急着问
-  - 重启一下试试
-  - 重装一下试试
-  - 换台设备试试
-  - 用这个试试https://baidu.com
-  - 实在不行就别搞了
-  - 把后台报错日志截图，并准备好充足的问题描述(态度要好)
-
-<img src="picture/wenti/wenti2.png" width="50%">
-
-  - 将后台报错日志截图和完整的问题描述发到群里。
-  - 等待有人为你解答
-
-<img src="picture/wenti/wenti1.png" width="50%">
-
-- 1. cookie 绑定失败？
-
-  - 先把云崽 `#强制更新` 一下 
-  - 然后重新获取cookie
-
-- 2. 装完 node 但是还是提示 `npm:command not found`
-
-  - 没配置环境变量而已
-  - 请自行百度搜索 `Windows环境变量设置`
-  - 在用户环境变量的 Path 变量中点击编辑，添加 `C:\Program Files\nodejs` 与 `C:\Users\把这段中文替换成你自己的用户名\AppData\Roaming\npm` 字段
-  - 重启电脑即可食用
-
-- 3. 签到显示 `验证码失败` ?
-
-  - 问得好，好问题
-  - 太正常不过，这个问题无解，有解决方法的请私发我
-  - 至于什么时候会好嘛，我也不知道，你问大伟哥去
-
-- 4. 提示 `qq版本过低` ？
-
-  - <img src="picture/wenti/qq.png" width="50%"> <br>此图来源于喵喵插件群
-
-  - 记得多试几次
-  - 亲测有效
-
-- 5. 提示 `请配置公共ck` ？
-
-  - 字面意思，`#配置公共ck`然后把你的ck发给机器人
-  - 或者`#使用全部ck`
-
-- 6，公共 ck 查询次数已用完，暂无法查询新 uid？
-
-  - 不用慌，再绑定一个就是了
-  - 或者 `#使用全部ck`
-
-- 7. <img src="picture/wenti/redis.png" width="50%"> <br> MISCONF Redis is configured to save RDB snapshots
-
-  - 控制面板->系统和安全->系统->高级系统设置->高级选项卡下方第一个卡片“性能”里的设置按钮->高级选项卡->虚拟内存->更改->勾选最上方自动管理所有驱动器的分页文件大小->重启电脑
-
-- 8. 机器人进群自动退了怎么办
-
-  - 锅巴插件->配置管理->其它->退群人数改成 0 就行
-
-- 9. 如何删除插件?
-
-  - 在 `Yunzai-bot/plugins` 文件夹里找到对应的插件右键删除即可，
-  - 注：如果是插件包需要把整个文件夹都删掉
-
-- 10. 如何关闭入群欢迎?
-
-  - 在 `Yunzai-bot/plugins/example` 文件夹里找到入群欢迎插件，右键删除，或者在锅巴插件中进行配置
-
-- 11. 机器人被冻结了，怎么办？
-
-  - 号封了而已，没啥好办法，能解封就解不能解可以多备几个小号。关闭私聊，减少冻结频率。
-
-- 12. xx 功能报错，xx 功能异常？机器人打不开? 机器人坏了?
-  - 重装吧兄弟
-  - 也可以不重装：重置云崽步骤(数据会保留)：在云崽根目录下打开 git bash 输入`git pull`，然后再`git reset --hard origin/main`，最后再手动重启即可解决。
-
-- 13. 喵喵插件的 `#xx照片` `xx图片` 功能用不了？
-
- 把 `Yunzai-Bot/plugins/miao-plugin/resources` 的 `character-img` 文件复制一份到 `Yunzai-Bot/plugins/miao-plugin/resources/miao-res-plus` 里就好了
-
-- 14. 机器人群聊消息发不出去，但是私聊正常？
-
-  - 这是触发了 QQ 新版群聊风控，私聊机器人发送 <https://accounts.qq.com/safe/message/unlock?lock_info=5_5> 然后拿出你的手机，并登录机器人的手机 QQ，从机器人的手机 QQ 里打开个链接，验证就行了。
-
-- 15. 十连次数怎么修改？
-
-  - 锅巴插件里可以配置
-
-- 16. 服务器推荐？
-
-  - 服务器都挺贵的，一般只有新用户和购物节会特别便宜，所以大家各凭本事吧，反正只要是台能联网的就能搭这个机器人。
-  - 这里我推荐:[☞秋叶云](https://qiuye.cloud/)
-
-- 17. 插件除了这些还有别的吗
-  - 更多的插件都在云崽官方群里，但是官方群它不对外开放...
-  - 或者你可以学学自己写插件
-  - 不会？，那就看下面的教程吧
- 
-
 ## 常用链接
 
 >下载链接（均为网盘）有密码的均为114514
@@ -696,6 +594,10 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 - Yunzai-Bot插件库：[☞Github](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)/[☞Gitee](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)
 - Yunzai-Bot（V3）：[☞Github](https://gitee.com/Le-niao/Yunzai-Bot)/[☞Gitee](https://gitee.com/Le-niao/Yunzai-Bot) 
 - Yunzai-Bot（V2）：[☞Github](https://gitee.com/yoimiya-kokomi/Yunzai-Bot)/[☞Gitee](https://gitee.com/yoimiya-kokomi/Yunzai-Bot) 
+
+## 问题解答
+
+- [问题解答](./lssue.md)
 
 ## Yunzai-Bot插件编写教学
 
