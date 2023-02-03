@@ -604,6 +604,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 - [Yunzai-Bot插件编写教学](./plugins.md)
 
 ## 交流群
+
 |群名|群主|
 |----|----|
 |[原神交流](https://qm.qq.com/cgi-bin/qm/qr?k=Cu1TnfTNNOdhx0lv17qbnTzp9lhOy_dJ&jump_from=webapi&authKey=8cmxRdVRamzJn0xPI2yet1a//X16faoVcTqD6P2vn/PIgJECkquiq8dyEoSgUJKt)|[@eihei](https://gitee.com/lin-zhi-xuan)|
@@ -615,7 +616,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 - [欸嘿爱发电](https://afdian.net/a/20091124eihei)
 - [qianxinwanjiu爱发电](https://afdian.net/a/qianxinwanjiu)
 
-## 开学通知meiy
+## 开学通知
 
 - 作者我已于2月6号开学，以后随缘更新，大概1周会有一次更新（没有跑路！没有跑路！没有跑路！）
 

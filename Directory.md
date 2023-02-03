@@ -25,8 +25,8 @@
   - [py插件](https://gitee.com/lin-zhi-xuan/eihei#py%E6%8F%92%E4%BB%B6)
   - [单个js格式插件通用安装方法](https://gitee.com/lin-zhi-xuan/eihei#%E5%8D%95%E4%B8%AAjs%E6%A0%BC%E5%BC%8F%E6%8F%92%E4%BB%B6%E9%80%9A%E7%94%A8%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95)
 
-- [问题解答](https://gitee.com/lin-zhi-xuan/eihei#%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94)
-
 - [常用链接](https://gitee.com/lin-zhi-xuan/eihei#%E5%B8%B8%E7%94%A8%E9%93%BE%E6%8E%A5)
+
+- [问题解答](https://gitee.com/lin-zhi-xuan/eihei#%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94)
 
 - [Yunzai-Bot插件编写教学](https://gitee.com/lin-zhi-xuan/eihei#yunzai-bot%E6%8F%92%E4%BB%B6%E7%BC%96%E5%86%99%E6%95%99%E5%AD%A6)
