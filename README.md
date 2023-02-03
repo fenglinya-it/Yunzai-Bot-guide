@@ -615,9 +615,9 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 - [欸嘿爱发电](https://afdian.net/a/20091124eihei)
 - [qianxinwanjiu爱发电](https://afdian.net/a/qianxinwanjiu)
 
-## 开学通知
+## 开学通知meiy
 
-- 作者我已开学，以后随缘更新，大概1周会有一次更新
+- 作者我已于2月6号开学，以后随缘更新，大概1周会有一次更新（没有跑路！没有跑路！没有跑路！）
 
 
 
