@@ -313,7 +313,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 ## Yunzai-Bot代搭
 
-- 详情请见[Yunzai-Bot代搭](./daida)
+- 详情请见[Yunzai-Bot代搭](./daida.md)
 
 ## 赞助
 
