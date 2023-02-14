@@ -231,7 +231,7 @@ pause
 
 ## 插件安装教程
 
-
+- [插件安装教程](https://gitee.com/lin-zhi-xuan/eihei/blob/master/plugins.md#%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B)
 
 ## 常用链接
 
@@ -258,7 +258,7 @@ pause
 
 ## Yunzai-Bot插件编写教学
 
-- [Yunzai-Bot插件编写教学](./plugins.md)
+- [Yunzai-Bot插件编写教学](https://gitee.com/lin-zhi-xuan/eihei/blob/master/plugins.md#yunzai-bot%E6%8F%92%E4%BB%B6%E7%BC%96%E5%86%99%E6%95%99%E5%AD%A6)
 
 ## 交流群
 
