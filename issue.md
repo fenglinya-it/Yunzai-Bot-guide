@@ -36,10 +36,19 @@
 
 ## 4. 提示 `qq版本过低` ？
 
-  - <img src="picture/wenti/qq.png" width="50%"> <br>此图来源于喵喵插件群
+- 方法1:
 
-  - 记得多试几次
-  - 亲测有效
+- <img src="picture/wenti/qq.png" width="50%"> <br>此图来源于喵喵插件群
+
+- 记得多试几次
+- 亲测有效
+- 只改imei即可，若无法解决可全改。
+- 不建议一直尝试登录。
+- 方法2：切换登录协议ipad-安卓手机-安卓手表
+- 方法3：使用gocq获取token登录https://b23.tv/l78kDjj
+- 方法4：https://github.com/MrXiaoM/Aoki
+- 方法5：玩云崽死路一条，去你*的Oicq
+- 方法6:玩nonebot2
 
 ## 5. 提示 `请配置公共ck` ？
 
