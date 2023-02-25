@@ -79,7 +79,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 - 推荐使用VScode编写[☞下载](https://code.visualstudio.com/)
  
-## 单个的js插件
+## 单个的js格式插件(example)
 
 - [oicq文档](https://github.com/takayama-lily/oicq)
 - 先新建一个文件，命名为Helloworld.js
@@ -212,3 +212,8 @@ export class Helloworld extends plugin {
 ### 各式的判断
 
 预计...没有预计（开学随缘更新）
+
+
+## 大型的插件包(plugin)
+
+### 

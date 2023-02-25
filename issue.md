@@ -48,7 +48,7 @@
 - 方法3:使用gocq获取token登录https://b23.tv/l78kDjj
 - 方法4:https://github.com/MrXiaoM/Aoki
 - 方法5:玩云崽死路一条，去你****的Oicq
-- 方法6:linux使用rm -if Yunzai-Bot/,Windows请右键Yunzai-Bot文件夹选择删除.
+- 方法6:linux使用rm -rf Yunzai-Bot/,Windows请右键Yunzai-Bot文件夹选择删除.
 - 方法7:玩nonebot2
 
 ## 5. 提示 `请配置公共ck` ？
