@@ -193,7 +193,7 @@ pause
 ## ffmpeg安装教程
 
 1. 先下载压缩包
-- ffmpeg下载链接[☞ffmpeg](https://wwrl.lanzouw.com/),密码114514
+- ffmpeg下载链接[☞ffmpeg](https://wwrl.lanzouw.com/iK7uS0ixl0fi),密码114514
 
 2. 下载完后解压,位置随便
 
@@ -245,7 +245,7 @@ pause
 |git|[☞git](https://wwrl.lanzouw.com/iBjDY0hizgre)|
 |node.js|[☞node.js](http://nodejs.cn/download/)|
 |python3.8|[☞python3.8](https://wwrl.lanzouw.com/iK7uS0ixl0fi)|
-|ffmpeg|[☞ffmpeg](https://wwrl.lanzouw.com/)|
+|ffmpeg|[☞ffmpeg](https://wwrl.lanzouw.com/iK7uS0ixl0fi)|
 |滑块验证助手|[☞滑块验证](https://maupdate.rainchan.win/txcaptcha.apk)|
 
 
