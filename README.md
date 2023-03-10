@@ -3,10 +3,10 @@
 ## 简介
 
 [![](https://profile-counter.glitch.me/eihei/count.svg)](https://gitee.com/lin-zhi-xuan/eihei)
-- Yunzai-Bot是原神qq群机器人，通过米游社接口，查询原神游戏信息，快速生成图片返回，
-- 此指南是教你如何安装Yunzai-Bot和它的插件，编写插件和一些问题的解决方法。
-- 本指南暂未完善，欢迎大家提交Issues和Pull Requests
-- 求个star，谢谢
+- Yunzai-Bot是原神qq群机器人,通过米游社接口,查询原神游戏信息,快速生成图片返回,
+- 此指南是教你如何安装Yunzai-Bot和它的插件,编写插件和一些问题的解决方法。
+- 本指南暂未完善,欢迎大家提交Issues和Pull Requests
+- 求个star,谢谢
 - 我的博客:[qianxinwanjiu](https://qianxinwanjiu.com/eihei/)
 - 我的仓库:[gitee](https://gitee.com/lin-zhi-xuan/eihei)
 
@@ -47,7 +47,7 @@
 
 ### Windows:
 
-- 学不会怎么办，V我50我手把手教你
+- 学不会怎么办,V我50我手把手教你
 
 - 环境准备:[Node.js](http://nodejs.cn/download/)(建议版本v16.18.0),[redis](https://wwrl.lanzouw.com/iB1f70hizgxa),[git](https://wwrl.lanzouw.com/iBjDY0hizgre)
 
@@ -65,19 +65,19 @@
 
 - 解压后启动redis-server.exe这个文件。
 
-- 要一直开着，不能关掉。
+- 要一直开着,不能关掉。
 
 <img src="picture/Windows/Windows-redis.png" width="50%">
 
 #### 安装Yunzai-Bot本体
 
-1. 新建一个文件夹(也可以不建)，命名随便，最好别用中文
+1. 新建一个文件夹(也可以不建),命名随便,最好别用中文
 
 2. 选个拉取方式:
 
 **使用git-bash**
 
-- 1.1 右键文件夹，选择git bash here
+- 1.1 右键文件夹,选择git bash here
 
 <img src="picture/Windows/Windows-gitbash.png" width="50%">
 
@@ -105,19 +105,19 @@ cd Yunzai-Bot
 
 <img src="picture/Windows/Windows-cd.png" width="50%">
 
-5. 安装pnpm，已安装的可以跳过
+5. 安装pnpm,已安装的可以跳过
 
 ```sh
 npm install pnpm -g
 ```
 
-- （因为我已经安装过了，所以就不放图了）
+- （因为我已经安装过了,所以就不放图了）
 
 - 这里会发生的一些问题：
     输完卡住不动了怎么办？或者提示 `npm ERR！`？或者其他的报错？
-    原因：你的服务器网络太差了，根本下载不动，没问题才怪了。
-    解决方案：换源，执行命令来更换淘宝镜像源 `npm config set registry http://registry.npm.taobao.org` 然后再次执行安装 pnpm 的命令 `npm install pnpm -g`  
-    就是可能有点后遗症，更换镜像源后有微小概率导致后续安装出现问题
+    原因：你的服务器网络太差了,根本下载不动,没问题才怪了。
+    解决方案：换源,执行命令来更换淘宝镜像源 `npm config set registry http://registry.npm.taobao.org` 然后再次执行安装 pnpm 的命令 `npm install pnpm -g`  
+    就是可能有点后遗症,更换镜像源后有微小概率导致后续安装出现问题
 
 6. 安装依赖
 
@@ -135,13 +135,13 @@ node app
 
 <img src="picture/Windows/Windows-nodeapp.png" width="50%">
 
-- 如果觉得麻烦，可使用脚本：
+- 如果觉得麻烦,可使用脚本：
 
 >新建一个文件,把后缀改成bat,然后点击编辑
 
-- 把下面代码复制进去，然后进行修改:
+- 把下面代码复制进去,然后进行修改:
 
-- 第一行中，第一个双引号无需填写，第二个双引号填写你redis路径
+- 第一行中,第一个双引号无需填写,第二个双引号填写你redis路径
 - 第二行填写你Yunzai-Bot根目录
 
 ```bat
@@ -161,35 +161,46 @@ pause
 
 ### Yunzai-Bot换源方法
 
-- 这种方法不会掉任何插件和任何数据，但是部分依赖可能会掉，安装完成之后登录yunzai，根据yunzai的提示，用`pnpm install -p`安装依赖就好了！！！
-- ①打开yunzai根目录，在空白处右击鼠标，git bash here,或使用cmd等
+- 不知道什么原因,乐佬跑路了,oicq开源作者也集体跑路（已超过九个月未更新）
 
-- 先输入
+- 而且腾讯开始严查且更换登录协议,导致oicq不再适用,于是icqq出现了,它解决了这个问题,并且喵佬接手了Yunzai进行了一次大更新,因为喵佬换了个仓库,所以我们需要换个源
+
+- 这种方法不会掉任何插件和任何数据,但是部分依赖可能会掉,安装完成之后登录yunzai,根据yunzai的提示,用`pnpm install -p`安装依赖就好了！！！
+
+- 打开yunzai根目录,在空白处右击鼠标,**git bash here**,或使用**cmd**等
+
+- 输入以下命令换**喵喵源**
 ```sh
 git remote set-url origin https://gitee.com/yoimiya-kokomi/Yunzai-Bot.git
 ```
 
 <img src="picture/Windows/Windows-gitremote.png" width="50%">
 
-- ②紧接着输入
+- 然后输入
 
 ```sh
-git pull
+git checkout main
+```
+
+- 拉取更新
+
+```sh
+git pull && git reset --hard origin/main
 ```
 
 <img src="picture/Windows/Windows-gitpull.png" width="50%">
 
-<img src="picture/Windows/Windows-gitpull-1.png" width="50%">
+- 如果出现图中报错就需要删除**package.json**和**pnpm-lock.yaml**这两个文件然后再
 
-- 如果出现图上中报错就需要删除package.json和pnpm-lock.yaml这两个文件然后再
+<img src="picture/Windows/Windows-gitpull-1.png" width="50%">
 
 ```sh
 git pull
 ```
 
-- 如果没有报错跳转至④
+- 如果没有请继续
 
-④安装相关依赖，输入
+- 安装相关依赖
 
 ```sh
 pnpm install -P
@@ -197,7 +208,15 @@ pnpm install -P
 
 <img src="picture/Windows/Windows-pnpm.png" width="50%">
 
-完成后就换库成功了，再次启动yunzai即可
+- 之后删除原/data/QQ号文件夹,使用以下命令重新登录
+
+```sh
+pnpm run login
+```
+
+<img src="picture/Windows/Windows-pnpm_run_login.png" width="50%">
+
+- 之后按照提示继续登录即可
 
 ## 基础操作
 
@@ -207,13 +226,13 @@ pnpm install -P
 
 - 后台运行： `pnpm start`
 
-- 关闭云崽： 对着机器人发送 `#关机`，或者在关掉云崽运行窗口
+- 关闭云崽： 对着机器人发送 `#关机`,或者在关掉云崽运行窗口
 
 - 功能列表： `#帮助`,`#插件名称+帮助`
 
-- 更新云崽： `#全部更新`,`#强制更新`，`#更新`,`git pull`
+- 更新云崽： `#全部更新`,`#强制更新`,`#更新`,`git pull`
 
-- 重置云崽的部分设置(QQ 号，主人 QQ 等)： `pnpm run login`
+- 重置云崽的部分设置(QQ 号,主人 QQ 等)： `pnpm run login`
 
 ---
 
@@ -221,14 +240,14 @@ pnpm install -P
 
 | 目录                     | 说明                           |
 | ------------------------ | ------------------------------ |
-| config\config\qq.yaml    | 可以修改登录方式，QQ 号        |
+| config\config\qq.yaml    | 可以修改登录方式,QQ 号        |
 | config\config\redis.yaml | redis的设置（非必要别修改）        |
 | config\config\other.yaml | 可以修改主人 QQ                |
 | data\face                | 存放添加表情的位置             |
 | data\MysCookie           | 存放 cookie 的位置             |
 | logs\                    | 存放日志文件的位置              |
 | plugins\example          | 存放 js 插件的位置             |
-| Yunzai-Bot\plugins       | 存放大型插件的位置，如喵喵插件 |
+| Yunzai-Bot\plugins       | 存放大型插件的位置,如喵喵插件 |
 
 ## ffmpeg安装教程
 
@@ -253,7 +272,7 @@ pnpm install -P
 
 <img src="picture/ffmpeg/ffmpeg-3.png" width="50%">
 
-- 冒号后面是有空格，一定要注意这一点。
+- 冒号后面是有空格,一定要注意这一点。
 
 **锅巴里面设置**
 
@@ -268,8 +287,8 @@ pnpm install -P
 <img src="picture/ffmpeg/ffmpeg-4.png" width="50%">
 
 >注意事项:
->路径不能有空格，必须用单引号，必须用反斜杠。
->有些时候日志提示 `请检查ffmpeg配置` 大概率是插件本身的问题，而不是你的 ffmpeg 没配置好
+>路径不能有空格,必须用单引号,必须用反斜杠。
+>有些时候日志提示 `请检查ffmpeg配置` 大概率是插件本身的问题,而不是你的 ffmpeg 没配置好
 
 ## 插件安装教程
 
@@ -322,7 +341,7 @@ pnpm install -P
 
 ## 开学通知
 
-- 作者我已于2月6号开学，以后随缘更新，大概1周会有一次更新（没有跑路！没有跑路！没有跑路！）
+- 作者我已于2月6号开学,以后随缘更新,大概1周会有一次更新（没有跑路！没有跑路！没有跑路！）
 
 
 
