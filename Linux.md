@@ -20,8 +20,8 @@
 
 >使用以下命令安装：
 
-```bash
-wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && sudo bash install.sh ed8484bec
+```sh
+wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && sudo sh install.sh ed8484bec
 ```
 
 >安装完成后，记得保存输出的面板地址和账号密码
@@ -68,7 +68,7 @@ wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && sudo 
 
 - 执行以下命令：
 
-```bash
+```sh
 sudo apt-get install git
 ```
 
@@ -78,7 +78,7 @@ sudo apt-get install git
 
 - 然后拉取Yunzai，使用以下命令：
 
-```bash
+```sh
 git clone --depth=1 -b main https://gitee.com/Le-niao/Yunzai-Bot.git
 ```
 
@@ -97,13 +97,13 @@ Updating files: 100% (992/992), done.
 
 - 然后cd进Yunzai根目录
 
-```bash
+```sh
 cd Yunzai-Bot
 ```
 
 - pnpm安装过了，所以直接执行
 
-```bash
+```sh
 pnpm install -P
 ```
 
@@ -163,7 +163,7 @@ Done in 13.5s
 
 - 先安装dnf
 
-```bash
+```sh
 yum install -y dnf
 ```
 
@@ -171,19 +171,19 @@ yum install -y dnf
 
 - 使用dnf安装fedora的epel-release插件
 
-```bash
+```sh
 dnf install epel-release
 ```
 
 - 将存储库加到系统中
 
-```bash
-curl -fsSL https://rpm.nodesource.com/setup_16.x | sudo bash -
+```sh
+curl -fsSL https://rpm.nodesource.com/setup_16.x | sudo sh -
 ```
 
 - 安装nodejs，推荐大版本号16
 
-```bash
+```sh
 dnf module install nodejs:16 -y
 ```
 
@@ -191,7 +191,7 @@ dnf module install nodejs:16 -y
 
 - 然后测试是否正确安装
 
-```bash
+```sh
 node -v
 ```
 
@@ -207,7 +207,7 @@ v16.19.0
 ### 2. 安装redis
 - 使用以下命令安装并启动redis
 
-```bash
+```sh
 yum -y install redis && redis-server --daemonize yes
 ```
 
@@ -217,7 +217,7 @@ yum -y install redis && redis-server --daemonize yes
 
 ### 3. 安装GIT
 
-```bash
+```sh
 dnf install git -y
 ```
 
@@ -226,13 +226,13 @@ dnf install git -y
 
 - 国内服务器（Gitee源）
 
-```bash
+```sh
 git clone --depth=1 -b main https://gitee.com/Le-niao/Yunzai-Bot.git
 ```
 
 - 国外服务器（GitHub源）
 
-```bash
+```sh
 git clone --depth=1 -b main https://github.com/Le-niao/Yunzai-Bot.git
 ```
 
@@ -241,13 +241,13 @@ git clone --depth=1 -b main https://github.com/Le-niao/Yunzai-Bot.git
 ### 5. 安装依赖
 - cd进Yunzai根目录（别告诉我你不会cd）
 
-```bash
+```sh
 cd Yunzai-Bot
 ```
 
 - 然后安装pnpm(-g表示全局)
 
-```bash
+```sh
 npm install pnpm -g
 ```
 
@@ -255,7 +255,7 @@ npm install pnpm -g
 
 - 用pnpm安装依赖
 
-```bash
+```sh
 pnpm install -P
 ```
 
@@ -263,7 +263,7 @@ pnpm install -P
 
 - 还需要安装Chrome依赖库
 
-```bash
+```sh
 yum install pango.x86_64 libXcomposite.x86_64 libXcursor.x86_64 libXdamage.x86_64 libXext.x86_64 libXi.x86_64 libXtst.x86_64 cups-libs.x86_64 libXScrnSaver.x86_64 libXrandr.x86_64 GConf2.x86_64 alsa-lib.x86_64 atk.x86_64 gtk3.x86_64 -y && yum install libdrm libgbm libxshmfence -y && yum install nss -y && yum update nss -y
 ```
 
@@ -271,7 +271,7 @@ yum install pango.x86_64 libXcomposite.x86_64 libXcursor.x86_64 libXdamage.x86_6
 
 ### 6. 安装中文字体，顺便把系统语言切换为中文
 
-```bash
+```sh
 yum groupinstall fonts -y
 ```
 
@@ -279,7 +279,7 @@ yum groupinstall fonts -y
 
 - 然后查看当前系统所有语言包
 
-```bash
+```sh
 locale -a
 ```
 
@@ -291,7 +291,7 @@ locale -a
 
 - 切换
 
-```bash
+```sh
 localectl set-locale LANG=zh_CN.UTF-8
 ```
 
@@ -301,7 +301,7 @@ localectl set-locale LANG=zh_CN.UTF-8
 
 ### 7. 启动Yunzai并按提示操作即可
 
-```bash
+```sh
 node app
 ```
 
