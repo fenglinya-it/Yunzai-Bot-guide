@@ -88,7 +88,7 @@
   - 重装吧兄弟
   - 也可以不重装：重置云崽步骤(数据会保留)：在云崽根目录下打开 git bash 输入`git pull`，然后再`git reset --hard origin/main`，最后再手动重启即可解决。
 
-## 13. 喵喵插件的 `#xx照片` 功能用不了？
+## 13. 喵喵插件的 `xx照片` 功能用不了？
 
  把 `Yunzai-Bot/plugins/miao-plugin/resources` 的 `character-img` 文件复制一份到 `Yunzai-Bot/plugins/miao-plugin/resources/miao-res-plus` 里就好了
 
@@ -110,3 +110,33 @@
   - 更多的插件都在云崽官方群里，但是官方群它不对外开放...
   - 或者你可以学学自己写插件
   - 不会？，那就看插件编写教程吧
+
+
+## 18.`QQ版本过低`  `登录失败，建议升级最新版本后重试，或通过问题反馈与我们联系。` `当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。`
+ 
+ **换源法**
+  1. 先执行
+
+```sh
+git remote set-url origin https://gitee.com/yoimiya-kokomi/Yunzai-Bot.git && git checkout main && git pull
+```
+
+  2. 再执行
+
+     ```sh
+      git reset --hard origin/main
+     ```
+
+  3. 然后装下依赖
+     ```sh
+     pnpm install -P
+     ```
+  4. 进入`Yunzai-Bot\data`，找到自己的**QQ 号文件夹**，与 **device.json** 把这两个东西删掉
+
+  5. `node app` 正常启动云崽即可，目前**必须使用密码登录**，输入
+     ```sh
+     npm run login
+     ```
+     可以修改登录方式，并且如果遇到密保验证的话，请选择**短信验证码**验证
+
+  - **如果还登不上,建议换个号**

@@ -91,7 +91,7 @@
 
 - 命令
 
-```bash
+```sh
 git clone --depth=1 -b main https://gitee.com/Le-niao/Yunzai-Bot.git
 ```
 
@@ -99,7 +99,7 @@ git clone --depth=1 -b main https://gitee.com/Le-niao/Yunzai-Bot.git
 
 4. 进入Yunzai目录
 
-```bash
+```sh
 cd Yunzai-Bot 
 ```
 
@@ -107,7 +107,7 @@ cd Yunzai-Bot
 
 5. 安装pnpm，已安装的可以跳过
 
-```bash
+```sh
 npm install pnpm -g
 ```
 
@@ -121,7 +121,7 @@ npm install pnpm -g
 
 6. 安装依赖
 
-```bash
+```sh
 pnpm install -P
 ```
 
@@ -129,7 +129,7 @@ pnpm install -P
 
 7. 运行（首次运行按提示输入登录）
 
-```bash
+```sh
 node app
 ```
 
