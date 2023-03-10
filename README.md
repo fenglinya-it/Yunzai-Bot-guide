@@ -244,7 +244,7 @@ pause
 |redis|[☞redis](https://wwrl.lanzouw.com/iB1f70hizgxa)|
 |git|[☞git](https://wwrl.lanzouw.com/iBjDY0hizgre)|
 |node.js|[☞node.js](http://nodejs.cn/download/)|
-|python3.8|[☞python3.8](https://wwrl.lanzouw.com/iK7uS0ixl0fi)|
+|python3.8|[☞python3.8](https://wwrl.lanzouw.com/intnd0ixl4pc)|
 |ffmpeg|[☞ffmpeg](https://wwrl.lanzouw.com/iK7uS0ixl0fi)|
 |滑块验证助手|[☞滑块验证](https://maupdate.rainchan.win/txcaptcha.apk)|
 
