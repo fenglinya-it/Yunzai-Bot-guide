@@ -332,7 +332,7 @@ pnpm run login
 
 - 编写不易
 
-- [欸嘿爱发电](https://afdian.net/a/20091124eihei)
+- [LINZX爱发电](https://afdian.net/a/20091124eihei)
 - [qianxinwanjiu爱发电](https://afdian.net/a/qianxinwanjiu)
 
 ## 开学通知
