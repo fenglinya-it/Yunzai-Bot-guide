@@ -161,13 +161,15 @@ pause
 
 ### Yunzai-Bot换源方法
 
-- 这种方法不会掉任何插件和任何数据，但是部分依赖可能会掉，安装完成之后登录yunzai，根据yunzai的提示，用git bash here安装相应依赖就好！！！
+- 这种方法不会掉任何插件和任何数据，但是部分依赖可能会掉，安装完成之后登录yunzai，根据yunzai的提示，用`pnpm install -p`安装依赖就好了！！！
 - ①打开yunzai根目录，在空白处右击鼠标，git bash here,或使用cmd等
 
-1. 先输入
+- 先输入
 ```sh
 git remote set-url origin https://gitee.com/yoimiya-kokomi/Yunzai-Bot.git
 ```
+
+<img src="picture/Windows/Windows-gitremote.png" width="50%">
 
 - ②紧接着输入
 
@@ -175,7 +177,9 @@ git remote set-url origin https://gitee.com/yoimiya-kokomi/Yunzai-Bot.git
 git pull
 ```
 
-<img src="picture/Windows/Windows-gitpull-wenti1.png" width="50%">
+<img src="picture/Windows/Windows-gitpull.png" width="50%">
+
+<img src="picture/Windows/Windows-gitpull-1.png" width="50%">
 
 - 如果出现图上中报错就需要删除package.json和pnpm-lock.yaml这两个文件然后再
 
@@ -190,6 +194,8 @@ git pull
 ```sh
 pnpm install -P
 ```
+
+<img src="picture/Windows/Windows-pnpm.png" width="50%">
 
 完成后就换库成功了，再次启动yunzai即可
 
