@@ -175,7 +175,7 @@ git remote set-url origin https://gitee.com/yoimiya-kokomi/Yunzai-Bot.git
 git pull
 ```
 
-<img src="picture/ffmpeg/ffmpeg-2.png" width="50%">
+<img src="picture/Windows/Windows-gitpull-wenti1.png" width="50%">
 
 - 如果出现图上中报错就需要删除package.json和pnpm-lock.yaml这两个文件然后再
 
