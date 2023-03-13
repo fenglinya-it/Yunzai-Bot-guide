@@ -114,37 +114,7 @@
 - 或者你可以学学自己写插件
 - 不会？，那就看插件编写教程吧
 
-
-## 18.`QQ版本过低`  `登录失败，建议升级最新版本后重试，或通过问题反馈与我们联系。` `当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。`
- 
-**换源法**
-1. 先执行
-
-```sh
-git remote set-url origin https://gitee.com/yoimiya-kokomi/Yunzai-Bot.git && git checkout main && git pull
-```
-
-2. 再执行
-
-```sh
- git reset --hard origin/main
-```
-
-3. 然后装下依赖
-
-```sh
-pnpm install -P
-```
-
-4. 进入`Yunzai-Bot\data`，找到自己的**QQ 号文件夹**，与 **device.json** 把这两个东西删掉
-5. `node app` 正常启动云崽即可，目前**必须使用密码登录**，输入
-```sh
-npm run login
-```
-- 可以修改登录方式，并且如果遇到密保验证的话，请选择**短信验证码**验证
-- **如果还登不上,建议换个号**
-
-## 19.提示 puppeteer chromium 启动失败？Chromium 实例关闭或崩溃？
+## 18.提示 puppeteer chromium 启动失败？Chromium 实例关闭或崩溃？
 
 1. 先执行
 ```sh
@@ -154,6 +124,6 @@ pnpm config set puppeteer_download_host=https://npmmirror.com/mirrors
 ```sh
 node ./node_modules/puppeteer/install.js
 ```
-## 20.redis 数据库打不开怎么办？
+## 19.redis 数据库打不开怎么办？
 
 - 建议重装redis数据库
