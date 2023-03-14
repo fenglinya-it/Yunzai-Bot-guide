@@ -92,7 +92,7 @@
 - 命令
 
 ```sh
-git clone --depth=1 -b main https://gitee.com/Le-niao/Yunzai-Bot.git
+git clone --depth=1 -b main https://gitee.com/yoimiya-kokomi/Yunzai-Bot.git
 ```
 
 <img src="picture/Windows/Windows-gitclone.png" width="50%">
