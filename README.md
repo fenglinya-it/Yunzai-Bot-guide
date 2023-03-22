@@ -8,7 +8,7 @@
 - 本指南暂未完善,欢迎大家提交Issues和Pull Requests
 - 求个star,谢谢
 - 我的博客:[qianxinwanjiu](https://qianxinwanjiu.com/eihei/)
-- 我的仓库:[gitee](https://gitee.com/lin-zhi-xuan/eihei)
+- 我的仓库:[gitee](https://gitee.com/lin-zhi-xuan/eihei) ,(GitHub)[https://github.com/LIN-ZX/Yunzai-Bot-]
 
 ## 目录
 
