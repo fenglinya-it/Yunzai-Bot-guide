@@ -10,7 +10,7 @@
 - 我的仓库:[gitee](https://gitee.com/lin-zhi-xuan/eihei) ,[GitHub](https://github.com/LIN-ZX/Yunzai-Bot-)
 
 ## 目录
-- [TRSS脚本的安装教程](#%E5%AE%89%E8%A3%85trss%E8%84%9A%E6%9C%AC)
+
 
 - [Yunzai-Bot的Windows安装教程](#windows)
 
@@ -22,6 +22,8 @@
 
   - [Ubuntu20.04教程](Linux.md#ubuntu-2004%E6%95%99%E7%A8%8B)
   - [CentOS 7.9.2111](Linux.md#centos-792111%E6%95%99%E7%A8%8B)
+
+- [TRSS脚本的安装教程](#%E5%AE%89%E8%A3%85trss%E8%84%9A%E6%9C%AC)
 
 - [基础操作](#%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C)
 
@@ -42,6 +44,177 @@
 - [问题解答](#%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94)
 
 - [Yunzai-Bot插件编写教学](#yunzai-bot%E6%8F%92%E4%BB%B6%E7%BC%96%E5%86%99%E6%95%99%E5%AD%A6)
+
+## 安装Yunzai-Bot
+
+### Windows:
+
+- 学不会怎么办,V我50我手把手教你
+
+- 环境准备:[Node.js](http://nodejs.cn/download/)(建议版本v16.18.0),[redis](https://wwrl.lanzouw.com/iB1f70hizgxa),[git](https://wwrl.lanzouw.com/iBjDY0hizgre)
+
+####  安装git
+
+- 下载地址[git](https://wwrl.lanzouw.com/iBjDY0hizgre),密码:114514
+
+<img src="picture/Windows/Windows-git.png" width="50%">
+
+- 一直点next
+
+#### 安装redis
+
+- 下载地址[redis](https://wwrl.lanzouw.com/iB1f70hizgxa),密码:114514
+
+- 解压后启动redis-server.exe这个文件。
+
+- 要一直开着,不能关掉。
+
+<img src="picture/Windows/Windows-redis.png" width="50%">
+
+#### 安装Yunzai-Bot本体
+
+1. 新建一个文件夹(也可以不建),命名随便,最好别用中文
+
+2. 选个拉取方式:
+
+**使用git-bash**
+
+- 1.1 右键文件夹,选择git bash here
+
+<img src="picture/Windows/Windows-gitbash.png" width="50%">
+
+**使用原生自带终端**
+
+- 2.1 进入你要安装Yunzai的文件夹
+
+- 2.2 打开终端(在文件夹路径处将文件家路径改为cmd或者powershell)
+
+3. 克隆项目
+
+- 命令
+
+```sh
+git clone --depth=1 -b main https://gitee.com/yoimiya-kokomi/Yunzai-Bot.git
+```
+
+<img src="picture/Windows/Windows-gitclone.png" width="50%">
+
+4. 进入Yunzai目录
+
+```sh
+cd Yunzai-Bot 
+```
+
+<img src="picture/Windows/Windows-cd.png" width="50%">
+
+5. 安装pnpm,已安装的可以跳过
+
+```sh
+npm install pnpm -g
+```
+
+- （因为我已经安装过了,所以就不放图了）
+
+- 这里会发生的一些问题：
+    输完卡住不动了怎么办？或者提示 `npm ERR！`？或者其他的报错？
+    原因：你的服务器网络太差了,根本下载不动,没问题才怪了。
+    解决方案：换源,执行命令来更换淘宝镜像源 `npm config set registry http://registry.npm.taobao.org` 然后再次执行安装 pnpm 的命令 `npm install pnpm -g`  
+    就是可能有点后遗症,更换镜像源后有微小概率导致后续安装出现问题
+
+6. 安装依赖
+
+```sh
+pnpm install -P
+```
+
+<img src="picture/Windows/Windows-pnpm.png" width="50%">
+
+7. 运行（首次运行按提示输入登录）
+
+```sh
+node app
+```
+
+<img src="picture/Windows/Windows-nodeapp.png" width="50%">
+
+- 如果觉得麻烦,可使用脚本：
+
+>新建一个文件,把后缀改成bat,然后点击编辑
+
+- 把下面代码复制进去,然后进行修改:
+
+- 第一行中,第一个双引号无需填写,第二个双引号填写你redis路径
+- 第二行填写你Yunzai-Bot根目录
+
+```bat
+start "" "C:/redis/redis-server.exe"
+cd C:/Yunzai-Bot
+node app
+pause
+```
+
+- 改完后保存运行即可食用
+
+### Linux
+
+- 教程中的操作系统有(Ubuntu 20.04),(CentOS 7.9.2111)
+
+- [Linux安装教程](./Linux.md)
+
+### Yunzai-Bot换源方法
+
+- 这种方法不会掉任何插件和任何数据,但是部分依赖可能会掉,安装完成之后登录yunzai,根据yunzai的提示,用`pnpm install -p`安装依赖就好了！！！
+
+- 打开yunzai根目录,在空白处右击鼠标,**git bash here**,或使用**cmd**等
+
+- 输入以下命令换**喵喵源**
+```sh
+git remote set-url origin https://gitee.com/yoimiya-kokomi/Yunzai-Bot.git
+```
+
+<img src="picture/Windows/Windows-gitremote.png" width="50%">
+
+- 然后输入
+
+```sh
+git checkout main
+```
+
+- 拉取更新
+
+```sh
+git pull && git reset --hard origin/main
+```
+
+<img src="picture/Windows/Windows-gitpull.png" width="50%">
+
+- 如果出现图中报错就需要删除**package.json**和**pnpm-lock.yaml**这两个文件然后再
+
+<img src="picture/Windows/Windows-gitpull-1.png" width="50%">
+
+```sh
+git pull
+```
+
+- 如果没有请继续
+
+- 安装相关依赖
+
+```sh
+pnpm install -P
+```
+
+<img src="picture/Windows/Windows-pnpm.png" width="50%">
+
+- 之后删除原/data/QQ号文件夹,使用以下命令重新登录
+
+```sh
+pnpm run login
+```
+
+<img src="picture/Windows/Windows-pnpm_run_login.png" width="50%">
+
+- 之后按照提示继续登录即可
 
 ## 安装TRSS脚本
 
@@ -252,177 +425,6 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 </details>
 
 </details>
-
-## 安装Yunzai-Bot
-
-### Windows:
-
-- 学不会怎么办,V我50我手把手教你
-
-- 环境准备:[Node.js](http://nodejs.cn/download/)(建议版本v16.18.0),[redis](https://wwrl.lanzouw.com/iB1f70hizgxa),[git](https://wwrl.lanzouw.com/iBjDY0hizgre)
-
-####  安装git
-
-- 下载地址[git](https://wwrl.lanzouw.com/iBjDY0hizgre),密码:114514
-
-<img src="picture/Windows/Windows-git.png" width="50%">
-
-- 一直点next
-
-#### 安装redis
-
-- 下载地址[redis](https://wwrl.lanzouw.com/iB1f70hizgxa),密码:114514
-
-- 解压后启动redis-server.exe这个文件。
-
-- 要一直开着,不能关掉。
-
-<img src="picture/Windows/Windows-redis.png" width="50%">
-
-#### 安装Yunzai-Bot本体
-
-1. 新建一个文件夹(也可以不建),命名随便,最好别用中文
-
-2. 选个拉取方式:
-
-**使用git-bash**
-
-- 1.1 右键文件夹,选择git bash here
-
-<img src="picture/Windows/Windows-gitbash.png" width="50%">
-
-**使用原生自带终端**
-
-- 2.1 进入你要安装Yunzai的文件夹
-
-- 2.2 打开终端(在文件夹路径处将文件家路径改为cmd或者powershell)
-
-3. 克隆项目
-
-- 命令
-
-```sh
-git clone --depth=1 -b main https://gitee.com/yoimiya-kokomi/Yunzai-Bot.git
-```
-
-<img src="picture/Windows/Windows-gitclone.png" width="50%">
-
-4. 进入Yunzai目录
-
-```sh
-cd Yunzai-Bot 
-```
-
-<img src="picture/Windows/Windows-cd.png" width="50%">
-
-5. 安装pnpm,已安装的可以跳过
-
-```sh
-npm install pnpm -g
-```
-
-- （因为我已经安装过了,所以就不放图了）
-
-- 这里会发生的一些问题：
-    输完卡住不动了怎么办？或者提示 `npm ERR！`？或者其他的报错？
-    原因：你的服务器网络太差了,根本下载不动,没问题才怪了。
-    解决方案：换源,执行命令来更换淘宝镜像源 `npm config set registry http://registry.npm.taobao.org` 然后再次执行安装 pnpm 的命令 `npm install pnpm -g`  
-    就是可能有点后遗症,更换镜像源后有微小概率导致后续安装出现问题
-
-6. 安装依赖
-
-```sh
-pnpm install -P
-```
-
-<img src="picture/Windows/Windows-pnpm.png" width="50%">
-
-7. 运行（首次运行按提示输入登录）
-
-```sh
-node app
-```
-
-<img src="picture/Windows/Windows-nodeapp.png" width="50%">
-
-- 如果觉得麻烦,可使用脚本：
-
->新建一个文件,把后缀改成bat,然后点击编辑
-
-- 把下面代码复制进去,然后进行修改:
-
-- 第一行中,第一个双引号无需填写,第二个双引号填写你redis路径
-- 第二行填写你Yunzai-Bot根目录
-
-```bat
-start "" "C:/redis/redis-server.exe"
-cd C:/Yunzai-Bot
-node app
-pause
-```
-
-- 改完后保存运行即可食用
-
-### Linux
-
-- 教程中的操作系统有(Ubuntu 20.04),(CentOS 7.9.2111)
-
-- [Linux安装教程](./Linux.md)
-
-### Yunzai-Bot换源方法
-
-- 这种方法不会掉任何插件和任何数据,但是部分依赖可能会掉,安装完成之后登录yunzai,根据yunzai的提示,用`pnpm install -p`安装依赖就好了！！！
-
-- 打开yunzai根目录,在空白处右击鼠标,**git bash here**,或使用**cmd**等
-
-- 输入以下命令换**喵喵源**
-```sh
-git remote set-url origin https://gitee.com/yoimiya-kokomi/Yunzai-Bot.git
-```
-
-<img src="picture/Windows/Windows-gitremote.png" width="50%">
-
-- 然后输入
-
-```sh
-git checkout main
-```
-
-- 拉取更新
-
-```sh
-git pull && git reset --hard origin/main
-```
-
-<img src="picture/Windows/Windows-gitpull.png" width="50%">
-
-- 如果出现图中报错就需要删除**package.json**和**pnpm-lock.yaml**这两个文件然后再
-
-<img src="picture/Windows/Windows-gitpull-1.png" width="50%">
-
-```sh
-git pull
-```
-
-- 如果没有请继续
-
-- 安装相关依赖
-
-```sh
-pnpm install -P
-```
-
-<img src="picture/Windows/Windows-pnpm.png" width="50%">
-
-- 之后删除原/data/QQ号文件夹,使用以下命令重新登录
-
-```sh
-pnpm run login
-```
-
-<img src="picture/Windows/Windows-pnpm_run_login.png" width="50%">
-
-- 之后按照提示继续登录即可
 
 ## 基础操作
 
