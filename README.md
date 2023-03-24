@@ -382,27 +382,48 @@ DIR=/Bot CMD=trss bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Yunzai/raw/main/
 </details>
 
 <details><summary>容器管理</summary>
-- 查看容器
+
+<details><summary>查看容器</summary>
+
 ```
 docker ps -as
 ```
-- 启动容器
+</details>
+
+<details><summary>启动容器</summary>
+
 ```
 docker start 容器名 # 默认开机自启，无需手动启动
 ```
-- 重启容器
+
+</details>
+
+<details><summary>重启容器</summary>
+
 ```
 docker restart -t0 容器名
 ```
-- 停止容器
+
+</details>
+
+<details><summary>停止容器</summary>
+
 ```
 docker stop -t0 容器名
 ```
-- 删除容器
+
+</details>
+
+<details><summary>删除容器</summary>
+
 ```
 docker rm -f 容器名
 ```
-- 重建容器
+
+</details>
+
+<details><summary>重建容器</summary>
+
 ```
 docker run -itd
   -h 主机名
@@ -412,6 +433,8 @@ docker run -itd
   -p 主机端口:容器端口 #端口映射
   镜像名
 ```
+
+</details>
 
 - 服务器 Linux 发行版 推荐使用 `Debian 11` 以上
 - 若只有 `Debian 10` 以下，可执行以下命令并重启服务器后升级到 `Debian 12`
