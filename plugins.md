@@ -70,7 +70,7 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 - 直接装个nonebot吧
 - 换个登录端口实现1号俩机器人
 
-## [单个js格式插件通用安装方法](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index?_from=gitee_search#js%E6%8F%92%E4%BB%B6%E7%B4%A2%E5%BC%95)
+## [单个js格式插件通用安装方法](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index#js%E6%8F%92%E4%BB%B6%E7%B4%A2%E5%BC%95example)
 
 - 超级简单，只要把插件下载好后放入 `Yunzai-bot/plugins/example` 里即可 
 <img src="picture/wenti/js-plugins.png" width="100%">
@@ -216,4 +216,120 @@ export class Helloworld extends plugin {
 
 ## 大型的插件包(plugin)
 
-### 
+| 文件/文件夹 | 作用 | 是否可选 | 对应文章跳转 | 
+| --- | --- | --- | --- |
+| index.js | 导入apps里的单js插件 | 否 | [点我](#index) |
+| apps/ | 存放单js插件的位置 | 否 | [点我](#apps) |
+| data/ | 存放插件数据的位置,可存储到Yunzai-Bot自带的data文件夹 | 是 | [点我](#data) |
+| resources/ | 可存放README所使用的图片之类的资源文件 | 是 | [点我](#resources) |
+| config/ | 存放插件的配置文件 | 否 | [点我](#config) |
+| guoba.support.js | 支持锅巴插件显示信息或配置(显示信息如不添加会是插件索引内的描述) | 是 | [点我](#锅巴支持) |
+| .gitignore | 更新时不选中某些文件或文件夹 | 是 | [点我](#gitignore)
+
+### index
+- 此js会导入apps文件夹(你可以选中其他的)内的所有js文件
+- 可添加载入提示
+
+- 编写示例:
+```javascript
+//导入node:fs模块
+import fs from node:fs
+
+//输出提示
+logger.info('更换为你需要的提示')
+logger.info('更换为你需要的提示')
+logger.info('更换为你需要的提示')
+//如需更多可复制粘贴
+//info可替换为: debug mark error
+
+//加载插件
+const files = fs.readdirSync('./plugins/你插件包的名字/apps').filter(file => file.endsWith('.js'))
+
+let ret = []
+
+files.forEach((file) => {
+  ret.push(import(`./apps/${file}`))
+})
+
+
+ret = await Promise.allSettled(ret)
+
+let apps = {}
+for (let i in files) {
+  let name = files[i].replace('.js', '')
+
+  if (ret[i].status != 'fulfilled') {
+      logger.error(`载入插件错误：${logger.red(name)}`)
+      logger.error(ret[i].reason)
+      continue
+  }
+  apps[name] = ret[i].value[Object.keys(ret[i].value)[0]]
+}
+
+
+export { apps }
+```
+
+### apps
+- 可根据[上方教程](#Yunzai-Bot插件编写教学)进行编写单js插件并放置于apps
+
+### data
+- 存放插件需要长期储存的文件,可存放于Yunzai-Bot自带的data文件夹
+- 例如:
+```
+data/xxxx/xxxx
+```
+
+### resources
+- 存放插件的资源文件
+- 例如:
+```
+data/README/img
+data/README/document
+data/common
+data/help
+```
+
+### config
+- 存放插件的配置文件
+- 例如:
+```
+config/config.yaml
+config/help.js
+```
+
+### 锅巴支持
+- 支持锅巴插件显示信息或配置(显示信息如不添加会是插件索引内的描述)
+
+- [编写示例](https://gitee.com/guoba-yunzai/guoba-plugin/blob/master/guoba.support.js)
+
+### gitignore
+- 更新时不选中某些文件或文件夹
+
+- 语法:
+```
+空格不匹配任意文件，可作为分隔符，可用反斜杠转义
+开头的文件标识注释，可以使用反斜杠进行转义
+! 开头的模式标识否定，该文件将会再次被包含，如果排除了该文件的父级目录，则使用 ! 也不会再次被包含。可以使用反斜杠进行转义
+/ 结束的模式只匹配文件夹以及在该文件夹路径下的内容，但是不匹配该文件
+/ 开始的模式匹配项目跟目录
+如果一个模式不包含斜杠，则它匹配相对于当前 .gitignore 文件路径的内容，如果该模式不在 .gitignore 文件中，则相对于项目根目录
+** 匹配多级目录，可在开始，中间，结束
+? 通用匹配单个字符
+* 通用匹配零个或多个字符
+[] 通用匹配单个字符列表
+```
+
+- 示例:
+```
+# 忽略所有data内的文件
+data/*
+# 忽略所有config内的文件
+config/*
+# 忽略resources/help/themes内的所有文件或文件夹
+resources/help/themes/**
+# 选择resources/help/themes/default文件夹
+!resources/help/themes/default/
+$ 忽略所有的.txt文件
+*.txt
+```

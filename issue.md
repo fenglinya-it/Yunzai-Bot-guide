@@ -53,6 +53,7 @@
 - 方法6:**linux使用rm -rf Yunzai-Bot/,Windows请右键Yunzai-Bot文件夹选择删除.**
 - 方法7:**玩nonebot2**
 - 方法8:**换icqq**
+- 方法9:**用TRSS脚本**
 
 ## 5. 提示 `请配置公共ck` ？
 
