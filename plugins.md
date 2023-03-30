@@ -77,6 +77,8 @@ git clone --depth=1 https://gitee.com/Nwflower/flower-plugin.git ./plugins/flowe
 
 # Yunzai-Bot插件编写教学
 
+# 前言
+- 需要node.js基础,需要会使用redis数据库,
 - 推荐使用VScode编写[☞下载](https://code.visualstudio.com/)
  
 ## 单个的js格式插件(example)
@@ -223,6 +225,7 @@ export class Helloworld extends plugin {
 | data/ | 存放插件数据的位置,可存储到Yunzai-Bot自带的data文件夹 | 是 | [点我](#data) |
 | resources/ | 可存放README所使用的图片之类的资源文件 | 是 | [点我](#resources) |
 | config/ | 存放插件的配置文件 | 否 | [点我](#config) |
+| model/ | 存放插件的封装文件 | 否 | [点我](#model) |
 | guoba.support.js | 支持锅巴插件显示信息或配置(显示信息如不添加会是插件索引内的描述) | 是 | [点我](#锅巴支持) |
 | .gitignore | 更新时不选中某些文件或文件夹 | 是 | [点我](#gitignore)
 
@@ -287,7 +290,8 @@ data/xxxx/xxxx
 data/README/img
 data/README/document
 data/common
-data/help
+data/help/help.html
+data/help/ehlp.css
 ```
 
 ### config
@@ -295,13 +299,24 @@ data/help
 - 例如:
 ```
 config/config.yaml
-config/help.js
+config/help.yaml
+```
+
+# model
+- 存放插件的封装文件
+- 例如:
+```
+config.js
+help.js
 ```
 
 ### 锅巴支持
 - 支持锅巴插件显示信息或配置(显示信息如不添加会是插件索引内的描述)
 
 - [编写示例](https://gitee.com/guoba-yunzai/guoba-plugin/blob/master/guoba.support.js)
+
+
+
 
 ### gitignore
 - 更新时不选中某些文件或文件夹
