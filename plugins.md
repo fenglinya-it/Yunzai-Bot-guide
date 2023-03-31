@@ -233,7 +233,7 @@ export class Helloworld extends plugin {
 - 此js会导入apps文件夹(你可以选中其他的)内的所有js文件
 - 可添加载入提示
 
-- 编写示例:
+编写示例:
 ```javascript
 //导入node:fs模块
 import fs from node:fs
@@ -278,20 +278,22 @@ export { apps }
 
 ### data
 - 存放插件需要长期储存的文件,可存放于Yunzai-Bot自带的data文件夹
-- 例如:
+
+例如:
 ```
 data/xxxx/xxxx
 ```
 
 ### resources
 - 存放插件的资源文件
-- 例如:
+
+例如:
 ```
 data/README/img
 data/README/document
 data/common
 data/help/help.html
-data/help/ehlp.css
+data/help/help.css
 ```
 
 ### config
@@ -302,12 +304,14 @@ config/config.yaml
 config/help.yaml
 ```
 
-# model
+### model
 - 存放插件的封装文件
-- 例如:
+
+例如:
 ```
 config.js
 help.js
+setting.js
 ```
 
 ### 锅巴支持
@@ -315,13 +319,10 @@ help.js
 
 - [编写示例](https://gitee.com/guoba-yunzai/guoba-plugin/blob/master/guoba.support.js)
 
-
-
-
 ### gitignore
 - 更新时不选中某些文件或文件夹
 
-- 语法:
+语法:
 ```
 空格不匹配任意文件，可作为分隔符，可用反斜杠转义
 开头的文件标识注释，可以使用反斜杠进行转义
@@ -341,10 +342,10 @@ help.js
 data/*
 # 忽略所有config内的文件
 config/*
-# 忽略resources/help/themes内的所有文件或文件夹
+# 忽略resources/help/themes内的所有文件夹
 resources/help/themes/**
 # 选择resources/help/themes/default文件夹
 !resources/help/themes/default/
-$ 忽略所有的.txt文件
+# 忽略所有的.txt文件
 *.txt
 ```
