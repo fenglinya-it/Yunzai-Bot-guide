@@ -490,14 +490,19 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 
 <img src="picture/ticket/ticket-2.png" width="50%">
 
-- 然后开始验证,验证完后找到下图圈的那个东西,单击,选择**预览**,复制**ticket**
-**(注意:复制ticket时不要把两边的双引号复制进去)**
+- 然后开始验证,验证完后找到下图圈的那个东西,单击
 
 <img src="picture/ticket/ticket-3.png" width="50%">
 
-- 最后返回终端,粘贴刚刚复制的**ticket**,并回车
+- 选择**预览**,复制**ticket**
+- **(注意:复制ticket时不要把两边的双引号复制进去)**
+
 
 <img src="picture/ticket/ticket-4.png" width="50%">
+
+- 最后返回终端,粘贴刚刚复制的**ticket**,并回车
+
+<img src="picture/ticket/ticket-5.png" width="50%">
 
 ## ffmpeg安装教程
 
