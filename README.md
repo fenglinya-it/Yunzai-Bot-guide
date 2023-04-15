@@ -465,8 +465,6 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 
 - 重置云崽的部分设置(QQ 号,主人 QQ 等)： `pnpm run login`
 
----
-
 ## 目录说明
 
 | 目录                     | 说明                           |
@@ -479,6 +477,27 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 | logs\                    | 存放日志文件的位置              |
 | plugins\example          | 存放 js 插件的位置             |
 | Yunzai-Bot\plugins       | 存放大型插件的位置,如喵喵插件 |
+
+## 如何在Windows获取ticket
+
+- 浏览器:Edge
+
+- 复制滑动验证链接,到浏览器打开
+
+<img src="picture/ticket/ticket-1.png" width="50%">
+
+- 按**F12**打开控制台,选择**网络**
+
+<img src="picture/ticket/ticket-2.png" width="50%">
+
+- 然后开始验证,验证完后找到下图圈的那个东西,单击,选择**预览**,复制**ticket**
+**(注意:复制ticket时不要把两边的双引号复制进去)**
+
+<img src="picture/ticket/ticket-3.png" width="50%">
+
+- 最后返回终端,粘贴刚刚复制的**ticket**,并回车
+
+<img src="picture/ticket/ticket-4.png" width="50%">
 
 ## ffmpeg安装教程
 
@@ -558,16 +577,11 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 |----|----|
 |[原神交流](https://qm.qq.com/cgi-bin/qm/qr?k=Cu1TnfTNNOdhx0lv17qbnTzp9lhOy_dJ&jump_from=webapi&authKey=8cmxRdVRamzJn0xPI2yet1a//X16faoVcTqD6P2vn/PIgJECkquiq8dyEoSgUJKt)|[@eihei](https://gitee.com/lin-zhi-xuan)|
 
-
-## Yunzai-Bot代搭
-
-- 详情请见[Yunzai-Bot代搭](./daida.md)
-
 ## 赞助
 
 - 编写不易
 
-- [LINZX爱发电](https://afdian.net/a/20091124eihei)
+- [枫林爱发电](https://afdian.net/a/20091124eihei)
 - [qianxinwanjiu爱发电](https://afdian.net/a/qianxinwanjiu)
 
 ## 开学通知
