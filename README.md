@@ -494,15 +494,15 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 
 <img src="picture/ticket/ticket-3.png" width="50%">
 
-- 选择**预览**,复制**ticket**
-- **(注意:复制ticket时不要把两边的双引号复制进去)**
+选择**预览**,复制**ticket**
+**(注意:复制ticket时不要把两边的双引号复制进去)**
 
 
 <img src="picture/ticket/ticket-4.png" width="50%">
 
 - 最后返回终端,粘贴刚刚复制的**ticket**,并回车
 
-<img src="picture/ticket/ticket-5.png" width="50%">
+
 
 ## ffmpeg安装教程
 
@@ -571,6 +571,10 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 ## 问题解答
 
 - [问题解答](./issue.md)
+
+## Yunzai-Bot代搭
+
+- [问题解答](./daida.md)
 
 ## Yunzai-Bot插件编写教学
 
