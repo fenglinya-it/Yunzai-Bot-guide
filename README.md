@@ -51,7 +51,7 @@
 
 - 学不会怎么办,V我50我手把手教你
 
-- 环境准备:[Node.js](http://nodejs.cn/download/)(建议版本v16.18.0),[redis](https://wwrl.lanzouw.com/iB1f70hizgxa),[git](https://wwrl.lanzouw.com/iBjDY0hizgre)
+- 环境准备:[Node.js](http://nodejs.cn/download/)(建议版本v16.18.0),[redis](https://wwrl.lanzouw.com/iml4v0xwo0za),[git](https://wwrl.lanzouw.com/iBjDY0hizgre)
 
 ####  安装git
 
@@ -63,7 +63,7 @@
 
 #### 安装redis
 
-- 下载地址[redis](https://wwrl.lanzouw.com/iB1f70hizgxa),密码:114514
+- 下载地址[redis](https://wwrl.lanzouw.com/iml4v0xwo0za),密码:114514
 
 - 解压后启动redis-server.exe这个文件。
 
@@ -555,7 +555,7 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 
 |名称|下载地址|
 |---|---|
-|redis|[☞redis](https://wwrl.lanzouw.com/iB1f70hizgxa)|
+|redis|[☞redis](https://wwrl.lanzouw.com/iml4v0xwo0za)|
 |git|[☞git](https://wwrl.lanzouw.com/iBjDY0hizgre)|
 |node.js|[☞node.js](http://nodejs.cn/download/)|
 |python3.8|[☞python3.8](https://wwrl.lanzouw.com/intnd0ixl4pc)|
@@ -571,10 +571,6 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 ## 问题解答
 
 - [问题解答](./issue.md)
-
-## Yunzai-Bot代搭
-
-- [问题解答](./daida.md)
 
 ## Yunzai-Bot插件编写教学
 
