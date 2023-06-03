@@ -45,6 +45,16 @@
 
 - [Yunzai-Bot插件编写教学](#yunzai-bot%E6%8F%92%E4%BB%B6%E7%BC%96%E5%86%99%E6%95%99%E5%AD%A6)
 
+## Feng-Yunzai 助手
+
+- [项目地址](https://gitee.com/lin-zhi-xuan/Feng-Yunzai-launcher)
+- 这是一个运行在Windows系统的Yunzai-Bot管理工具
+- 主要有云崽管理,云崽插件管理,环境管理.Feng-Yunzai 助手管理等功能
+- 前置条件: 需要先安装node.js和Git
+- 使用方法: 下载完后,直接运行即可
+- 其他: 如果在使用中出现问题,或是一些小建议,请添加QQ:670979892反馈
+- 注意事项: 最好不要放在带有中文的目录中(容易出现一些非本助手的问题);
+
 ## 安装Yunzai-Bot
 
 ### Windows:
