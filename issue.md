@@ -128,3 +128,8 @@ node ./node_modules/puppeteer/install.js
 ## 19.redis 数据库打不开怎么办？
 
 - 建议重装redis数据库
+
+
+## 20.监听事件错误
+
+- 部分监听事件错误可通过:删除Yunzai-Bot/data/db/下的data.db文件解决
