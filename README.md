@@ -512,6 +512,47 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 
 - 最后返回终端,粘贴刚刚复制的**ticket**,并回车
 
+## 自建签名API
+
+- 使用前需安装java（如已安装请跳过）
+
+- [下载](https://www.123pan.com/s/7JaiVv-5OZQA.html)并解压文件,密码:0000
+- 打开本文件夹里的jdk-11.0.2\bin
+- 复制上方路径栏里的路径（最好没有中文），例如D:\API\jdk-11.0.2\bin
+- 右键此电脑——属性——高级系统设置——环境变量——选中path，点击编辑——新建，输入刚刚复制的路径
+- 一路点击确定
+- 在cmd里输入java，如果弹出一大堆信息就说明成功了
+
+- 使用方法
+- 第一步
+- 获取你的Android_id（在Miao-Yunzai/data/icqq/你的QQ号/device.json里找）
+
+**A计划**
+- 将start.bat里的Android_id:后面的部分改为你的Android_id
+- 双击start.bat
+- 如果闪退，就说明报错了，此时请执行B计划，查看具体报错内容并在群里发起提问
+
+**B计划**
+
+- 右键——Git Bash Here
+- 输入以下命令，把Android_id:后面的部分改成你的Android_id
+- bash bin/unidbg-fetch-qsign --host=0.0.0.0 --port=8080  --count=2 --library=txlib/8.9.63 --android_id=你的android_id
+
+- 第二步
+- 将喵崽的device.json用本文件夹里的device.js替换
+- 具体目录为 Miao-Yunzai\node_modules\icqq\lib\core
+
+- 第三步
+- 打开Miao-Yunzai\config\config里的qq.yaml，协议改成1（安卓手机，不能和手机QQ同时登录）或者2（apad）
+
+- 第四步
+- 打开Miao-Yunzai\config\config里的bot.yaml
+- 最下面添加一行
+- sign_api_addr: http://127.0.0.1:8080/sign
+
+- 最后，愉快地登录喵崽，等待冻结（一般半小时左右，也可能不冻），解冻后一般不会再冻，就可以再次愉快地玩耍了！
+
+- 如果上述步骤没看懂，我只能劝你放弃……
 
 
 ## ffmpeg安装教程
