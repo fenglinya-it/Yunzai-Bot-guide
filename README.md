@@ -517,13 +517,6 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 - 第一步
 - 获取你的Android_id（在Miao-Yunzai/data/icqq/你的QQ号/device.json里找）
 
-**A计划**
-- 将start.bat里的Android_id:后面的部分改为你的Android_id
-- 双击start.bat
-- 如果闪退，就说明报错了，此时请执行B计划，查看具体报错内容并在群里发起提问
-
-**B计划**
-
 - 右键——Git Bash Here
 - 输入以下命令，把Android_id:后面的部分改成你的Android_id
 - bash bin/unidbg-fetch-qsign --host=0.0.0.0 --port=8080  --count=2 --library=txlib/8.9.63 --android_id=你的android_id
