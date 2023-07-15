@@ -506,7 +506,7 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 
 - 使用前需安装java（如已安装请跳过）
 
-- [下载](https://www.123pan.com/s/7JaiVv-5OZQA.html)并解压文件,密码:0000
+- [下载](https://www.123pan.com/s/7JaiVv-VrZQA.html)并解压文件,密码:0000
 - 第一步
 - 双击本文件夹下的jdk安装包安装Java环境
 
