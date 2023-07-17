@@ -597,6 +597,10 @@ sign_api_addr: "http://127.0.0.1:8080"
 
 - [Yunzai-Bot插件编写教学](plugins.md#yunzai-bot%E6%8F%92%E4%BB%B6%E7%BC%96%E5%86%99%E6%95%99%E5%AD%A6)
 
+## Yunzai-Bot代搭
+
+- [Yuznai-Bot代搭](./daida.md)
+
 ## 交流群
 
 |群名|群主|
