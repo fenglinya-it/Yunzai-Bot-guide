@@ -504,6 +504,10 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 
 ## 自建签名API
 
+- 需要将icqq更新到0.4.11
+```bahs
+pnpm up icqq
+```
 - 使用前需安装java（如已安装请跳过）
 
 - [下载](https://www.123pan.com/s/7JaiVv-VrZQA.html)并解压文件,密码:0000
@@ -517,7 +521,7 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 - 更改喵崽配置文件(具体目录为Miao-Yunzai/config/config/bot.yaml)
 - 打开bot.yaml文件在里面添加上下面的文字:
 ```yaml
-sign_api_addr: "http://127.0.0.1:8080"
+sign_api_addr: "http://127.0.0.1:8080/sign?key=123456"
 ```
 
 - 最后，愉快地登录喵崽,开始愉快的玩耍
