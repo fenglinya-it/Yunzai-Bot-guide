@@ -5,7 +5,6 @@
 [![](https://profile-counter.glitch.me/eihei/count.svg)]()
 - Yunzai-Bot是原神qq群机器人,通过米游社接口,查询原神游戏信息,快速生成图片返回,
 - 此指南是教您如何安装Yunzai-Bot和它的插件,编写插件和一些问题的解决方法。
-- 我的仓库:[gitee](https://gitee.com/lin-zhi-xuan/eihei) ,[GitHub](https://github.com/LIN-ZX/Yunzai-Bot-)
 
 ## 目录
 
@@ -599,11 +598,9 @@ sign_api_addr: "http://127.0.0.1:8080/sign?key=123456"
 
 - [Yunzai-Bot插件编写教学](plugins.md#yunzai-bot%E6%8F%92%E4%BB%B6%E7%BC%96%E5%86%99%E6%95%99%E5%AD%A6)
 
-<!--
 ## Yunzai-Bot代搭
 
 - [Yuznai-Bot代搭](./daida.md)
--->
 
 ## 交流群
 
