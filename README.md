@@ -600,7 +600,9 @@ sign_api_addr: "http://127.0.0.1:8080/sign?key=123456"
 
 ## Yunzai-Bot代搭
 
-- [Yuznai-Bot代搭](./daida.md)
+**开源项目,有能力可自行搭建**
+
+- 暂时不提供此服务
 
 ## 交流群
 
