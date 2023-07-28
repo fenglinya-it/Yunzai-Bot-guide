@@ -499,13 +499,22 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 
 - 最后返回终端,粘贴刚刚复制的**ticket**,并回车
 
-## 自建签名API
+## 签名API
 
-- 需要将icqq更新到0.4.11
+### 使用公共api
+
+- 我提供的公共api:http://sign.fengzxlin.cn:8080/sign?key114514\\
+- 在喵崽配置文件中添加即可
+
+### 自建签名api教程教程
+
+#### Windows
+
+- 先将icqq更新到0.4.11
 ```bahs
 pnpm up icqq
 ```
-- 使用前需安装java（如已安装请跳过）
+- 使用前需安装java（如已安装请跳过第一步）
 
 - [下载](https://www.123pan.com/s/7JaiVv-VrZQA.html)并解压文件,密码:0000
 - 第一步
@@ -518,13 +527,12 @@ pnpm up icqq
 - 更改喵崽配置文件(具体目录为Miao-Yunzai/config/config/bot.yaml)
 - 打开bot.yaml文件在里面添加上下面的文字:
 ```yaml
-sign_api_addr: "http://127.0.0.1:8080/sign?key=123456"
+sign_api_addr: http://0.0.0.0:8080/sign?key=114514
 ```
 
 - 最后，愉快地登录喵崽,开始愉快的玩耍
 
 - 如果上述步骤没看懂，我只能劝你放弃……
-
 
 ## ffmpeg安装教程
 
@@ -598,27 +606,10 @@ sign_api_addr: "http://127.0.0.1:8080/sign?key=123456"
 
 - [Yunzai-Bot插件编写教学](plugins.md#yunzai-bot%E6%8F%92%E4%BB%B6%E7%BC%96%E5%86%99%E6%95%99%E5%AD%A6)
 
-## Yunzai-Bot代搭
-
-**开源项目,有能力可自行搭建**
-
-- 暂时不提供此服务
-
 ## 交流群
 
 |群名|群主|
 |----|----|
-|[原神交流](https://qm.qq.com/cgi-bin/qm/qr?k=Cu1TnfTNNOdhx0lv17qbnTzp9lhOy_dJ&jump_from=webapi&authKey=8cmxRdVRamzJn0xPI2yet1a//X16faoVcTqD6P2vn/PIgJECkquiq8dyEoSgUJKt)|[@eihei](https://gitee.com/lin-zhi-xuan)|
-
-## 赞助
-
-- 编写不易
-
-- [枫林爱发电](https://afdian.net/a/20091124eihei)
-- [qianxinwanjiu爱发电](https://afdian.net/a/qianxinwanjiu)
-
-
-
-
+|[原神交流](https://qm.qq.com/cgi-bin/qm/qr?k=Cu1TnfTNNOdhx0lv17qbnTzp9lhOy_dJ&jump_from=webapi&authKey=8cmxRdVRamzJn0xPI2yet1a//X16faoVcTqD6P2vn/PIgJECkquiq8dyEoSgUJKt)|[@枫林](https://gitee.com/lin-zhi-xuan)|
 
 

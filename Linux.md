@@ -5,10 +5,99 @@
 
 - 小白不建议使用Linux部署！
 - 如果你是小白且实在想使用Linux系统部署但搞不来的话,可以试试[TRSS脚本的安装教程](#%E5%AE%89%E8%A3%85trss%E8%84%9A%E6%9C%AC)
+- 特此鸣谢:qianxinwanjiu
 
-## Ubuntu 20.04教程
+## Ubuntu 通用版本教程
 
-- 本教程博客地址:https://qianxinwanjiu.com/yunzai-bot-linux-ubuntu/
+>本教程的环境
+>腾讯云的Ubuntu (版本22.04)
+
+### 1.安装node.js 16
+
+- 先更新一下
+
+```bash
+sudo apt update
+```
+
+- 执行下面的命令安装node.js:
+```bash
+sudo apt install apt-transport-https curl ca-certificates software-properties-common
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+- 验证一下安装是否成功
+```bash
+node -v
+```
+
+<img src="picture/Ubuntu/Ubuntu_general-node.png" width="50%">
+
+### 2.安装redis
+
+- 执行下面的命令:
+
+```bash
+sudo apt install redis-server
+```
+
+- 安装完后会一般会自动启动
+
+- 查看运行状态
+```bash
+sudo systemctl status redis-server
+```
+
+- 一般会输出下面的内容
+<img src="picture/Ubuntu/Ubuntu_general-redis.png" width="50%">
+
+### 3.安装git
+
+- 执行下面的命令:
+
+```bahs
+sudo apt-get install git
+```
+
+- 验证一下安装是否成功
+```bash
+git --version
+```
+
+<img src="picture/Ubuntu/Ubuntu_general-git.png" width="50%">
+
+### 4.拉取仓库
+
+- 执行下面的命令:
+
+```bash
+git clone --depth=1 -b main https://gitee.com/yoimiya-kokomi/Yunzai-Bot.git
+```
+
+- 进入云崽目录
+```bash
+cd Yunzai-Bot/
+```
+
+### 5.安装依赖
+
+- 先安装pnpm
+```bash
+npm install pnpm -g
+```
+
+- 安装依赖:
+```bash
+pnpm install -P
+```
+
+### 6.启动云崽
+
+```bash
+node app.js
+```
+
+## Ubuntu 20.04教程(采用宝塔)
 
 >本文的环境：
 >纯净的Ubuntu（版本20.04）
@@ -151,7 +240,6 @@ Done in 13.5s
 
 ## CentOS 7.9.2111教程:
 
-- 本教程地址:https://qianxinwanjiu.com/yunzai-linux-centos/#comment-29
 - 前提条件
 - 首先，请确保你的环境完全干净，不支持已部署项目的机器（易翻车）
 

@@ -97,7 +97,13 @@
 
 ## 14. 机器人群聊消息发不出去，但是私聊正常？
 
-- 这是触发了 QQ 的群聊风控，私聊机器人发送 <https://accounts.qq.com/safe/message/unlock?lock_info=5_5> 然后拿出你的手机，并登录机器人的手机 QQ，从机器人的手机 QQ 里打开个链接，验证就行了。
+- 这是触发了 QQ 的群聊风控，私聊机器人发送 
+https://accounts.qq.com/safe/message/unlock?lock_info=5_1 
+https://accounts.qq.com/safe/message/unlock?lock_info=5_2
+https://accounts.qq.com/safe/message/unlock?lock_info=5_3
+https://accounts.qq.com/safe/message/unlock?lock_info=5_4
+https://accounts.qq.com/safe/message/unlock?lock_info=5_5 
+然后拿出你的手机，并登录机器人的手机 QQ，从机器人的手机 QQ 里打开链接,验证就行了。(如果第一人链接不行就换第二个,以此类推)
 
 ## 15. 十连次数怎么修改？
 
