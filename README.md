@@ -510,24 +510,33 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 
 #### Windows
 
-- 先将icqq更新到0.4.11
+- 先将icqq更新到0.4.12
 ```bahs
 pnpm up icqq
 ```
-- 使用前需安装java（如已安装请跳过第一步）
+
+- 第一步
 
 - [下载](https://www.123pan.com/s/7JaiVv-VrZQA.html)并解压文件,密码:0000
-- 第一步
+
+- 第二步
 - 双击本文件夹下的jdk安装包安装Java环境
 
-- 第二行
+- 第三步
 - 双击启动start.bat
 
-- 第三步
-- 更改喵崽配置文件(具体目录为Miao-Yunzai/config/config/bot.yaml)
-- 打开bot.yaml文件在里面添加上下面的文字:
+- 第四步
+
+- 更改喵崽配置文件(具体路径为Miao-Yunzai/config/config/bot.yaml)
+
+- 打开bot.yaml文件并修改:
 ```yaml
 sign_api_addr: http://0.0.0.0:8080/sign?key=114514
+ver: 8.9.70
+```
+打开qq.yaml文件修改:
+```yaml
+platform: 2
 ```
 
 - 最后，愉快地登录喵崽,开始愉快的玩耍
