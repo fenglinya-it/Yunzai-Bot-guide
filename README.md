@@ -475,6 +475,18 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 | plugins\example          | 存放 js 插件的位置             |
 | Yunzai-Bot\plugins       | 存放大型插件的位置,如喵喵插件 |
 
+## 问题解答
+
+- [问题解答](./issue.md)
+
+## Yunzai-Bot插件编写教学
+
+- [Yunzai-Bot插件编写教学](plugins.md#yunzai-bot%E6%8F%92%E4%BB%B6%E7%BC%96%E5%86%99%E6%95%99%E5%AD%A6)
+
+## 插件安装教程
+
+- [插件安装教程](./plugins.md#%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B)
+
 ## 如何在Windows获取ticket
 
 - 浏览器:Edge
@@ -584,10 +596,6 @@ platform: 2
 >路径不能有空格,必须用单引号,必须用反斜杠。
 >有些时候日志提示 `请检查ffmpeg配置` 大概率是插件本身的问题,而不是你的 ffmpeg 没配置好
 
-## 插件安装教程
-
-- [插件安装教程](./plugins.md#%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B)
-
 ## 常用链接
 
 >下载链接（均为网盘）有密码的均为114514
@@ -606,14 +614,6 @@ platform: 2
 - Yunzai-Bot插件库：[☞Github](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)/[☞Gitee](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)
 - Yunzai-Bot（V3）：[☞Github](https://gitee.com/Le-niao/Yunzai-Bot)/[☞Gitee](https://gitee.com/Le-niao/Yunzai-Bot) 
 - Yunzai-Bot（V2）：[☞Github](https://gitee.com/yoimiya-kokomi/Yunzai-Bot)/[☞Gitee](https://gitee.com/yoimiya-kokomi/Yunzai-Bot) 
-
-## 问题解答
-
-- [问题解答](./issue.md)
-
-## Yunzai-Bot插件编写教学
-
-- [Yunzai-Bot插件编写教学](plugins.md#yunzai-bot%E6%8F%92%E4%BB%B6%E7%BC%96%E5%86%99%E6%95%99%E5%AD%A6)
 
 ## 交流群
 
