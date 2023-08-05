@@ -522,22 +522,92 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 
 #### Windows
 
-- 先将icqq更新到0.4.12
-```bahs
-pnpm up icqq
-```
-
-- 第一步
+- 第一步:下载
 
 - [下载](https://www.123pan.com/s/7JaiVv-VrZQA.html)并解压文件,密码:0000
 
-- 第二步
+- 第二步:安装jdk
 - 双击本文件夹下的jdk安装包安装Java环境
 
-- 第三步
+- 第三步:启动
 - 双击启动start.bat
 
-- 第四步
+- 第四步:更新
+
+- 将icqq更新到0.4.12
+```bash
+pnpm up icqq
+```
+
+- 将喵崽更新到最新版本
+```bash
+git pull
+```
+
+- 第五步:配置
+
+- 更改喵崽配置文件(具体路径为Miao-Yunzai/config/config/bot.yaml)
+
+- 打开bot.yaml文件并修改:
+```yaml
+sign_api_addr: http://0.0.0.0:8080/sign?key=114514
+ver: 8.9.70
+```
+打开qq.yaml文件修改:
+```yaml
+platform: 2
+```
+
+- 最后，愉快地登录喵崽,开始愉快的玩耍
+
+- 如果上述步骤没看懂，我只能劝你放弃……
+
+#### Linux
+
+- 第一步:下载并解压
+
+```bash
+# 下载
+wget https://github.com/fuqiuluo/unidbg-fetch-qsign/releases/download/1.1.6/unidbg-fetch-qsign-1.1.6.zip
+
+# 解压
+unzip ./unidbg-fetch-qsign-1.1.6.zip
+```
+
+- 第二步:安装jdk
+- Ubuntu使用下面命令
+```bash
+sudo apt update 
+sudo apt install openjdk-17-jdk
+```
+- CentOS使用下面命令
+```bash
+sudo yum install java-17-openjdk
+```
+
+- 第三步:启动
+- 创建一个文件(命名:start.sh)并写入:
+```bash
+bin/unidbg-fetch-qsign --basePath=txlib/8.9.70
+```
+- 保存,然后启动sh脚本
+```bash
+sh start.sh
+```
+
+- 第四步:更新
+
+- 将icqq更新到0.4.12
+```bash
+pnpm up icqq
+```
+
+- 将喵崽更新到最新版本
+```bash
+git pull
+```
+
+- 第五步:配置
 
 - 更改喵崽配置文件(具体路径为Miao-Yunzai/config/config/bot.yaml)
 
