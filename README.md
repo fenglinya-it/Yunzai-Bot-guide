@@ -513,11 +513,6 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 
 ## 签名API
 
-### 使用公共api
-
-- 我提供的公共api:http://sign.fengzxlin.cn:8080/sign?key114514\\
-- 在喵崽配置文件中添加即可
-
 ### 自建签名api教程教程
 
 #### Windows
