@@ -90,6 +90,12 @@
 
 - 命令
 
+建议使用用喵崽
+```sh
+git clone --depth=1 https://gitee.com/yoimiya-kokomi/Miao-Yunzai.git
+```
+
+备选:喵喵维护版
 ```sh
 git clone --depth=1 -b main https://gitee.com/yoimiya-kokomi/Yunzai-Bot.git
 ```
