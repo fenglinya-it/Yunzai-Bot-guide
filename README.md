@@ -525,7 +525,7 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 
 - 第一步:下载
 
-- [下载](https://www.123pan.com/s/7JaiVv-VrZQA.html)并解压文件,密码:0000
+- [下载](https://www.123pan.com/s/7JaiVv-o5ZQA.html)并解压文件,密码:0000
 
 - 第二步:安装jdk
 - 双击本文件夹下的jdk安装包安装Java环境
@@ -535,7 +535,7 @@ apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 
 - 第四步:更新
 
-- 将icqq更新到0.4.12
+- 将icqq更新最新版
 ```bash
 pnpm up icqq
 ```
@@ -552,7 +552,7 @@ git pull
 - 打开bot.yaml文件并修改:
 ```yaml
 sign_api_addr: http://0.0.0.0:8080/sign?key=114514
-ver: 8.9.70
+ver: 8.9.73
 ```
 打开qq.yaml文件修改:
 ```yaml
